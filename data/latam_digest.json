@@ -1,100 +1,29 @@
 [
   {
-    "id": "a5e91ae8024d64dd1389",
+    "id": "d93c01801dc8b7ffbdf2",
     "country": "AR",
     "bucket": "🇦🇷 Argentina",
     "source": "Ámbito Negocios",
-    "title": "Una startup que nació inspirada en una charla con Marcos Galperin ahora lo sumó como socio y levantó capital por u$s66 millones",
-    "url": "https://www.ambito.com/negocios/una-startup-que-nacio-inspirada-una-charla-marcos-galperin-ahora-lo-sumo-como-socio-y-levanto-capital-us66-millones-n6248876",
-    "published_at": "2026-02-24T20:41:00+00:00",
-    "summary": "Humand fue fundada por dos emprendedores argentinos. Desarrolló una aplicación que funciona como una red social interna de las empresas para conectar a todos los empleados. Cerró una ronda de inversión récord.",
+    "title": "De cuánto es la fortuna de Lauren Sánchez, la nueva esposa de Jeff Bezos",
+    "url": "https://www.ambito.com/negocios/de-cuanto-es-la-fortuna-lauren-sanchez-la-nueva-esposa-jeff-bezos-n6248850",
+    "published_at": "2026-02-24T21:30:00+00:00",
+    "summary": "Si bien gozaba de independencia financiera, esta unión la posicionó entre las celebridades más millonarias del mundo.",
     "categories": [
       "Negocios"
     ],
-    "detected": [
-      "funding",
-      "startup_news"
-    ]
+    "detected": []
   },
   {
-    "id": "aa76d5200ff1c0348eb2",
+    "id": "9fd8bb67f17fd3983d91",
     "country": "MX",
     "bucket": "🇲🇽 Mexico",
     "source": "Mexico News Daily",
-    "title": "Arson attacks and narco-blockades continue in Jalisco as CJNG responds to El Mencho’s death",
-    "url": "https://mexiconewsdaily.com/news/arson-attacks-and-narco-blockades-continue-in-jalisco-as-cjng-responds-to-el-menchos-death/",
-    "published_at": "2026-02-24T20:32:16+00:00",
-    "summary": "<p>Various acts of violence and vandalism were committed in Guadalajara and other parts of Jalisco on Monday night in an apparent continuation of the hostile reaction to the death on Sunday of CJNG leader Nemesio \"El Mencho\" Oseguera Cervantes.</p> <p>The post <a href=\"https://mexiconewsdaily.com/news/arson-attacks-and-narco-blockades-continue-in-jalisco-as-cjng-responds-to-el-menchos-death/\">Arson attacks and narco-blockades continue in Jalisco as CJNG responds to El Mencho&#8217;s death</a> ap",
+    "title": "Analysis: Mexico may pay a steep price for the killing of Jalisco cartel leader El Mencho",
+    "url": "https://mexiconewsdaily.com/politics/analysis-mexico-may-pay-a-steep-price-for-the-killing-of-jalisco-cartel-leader-el-mencho/",
+    "published_at": "2026-02-24T21:09:10+00:00",
+    "summary": "<p>El Mencho's killing may have enabled Mexico’s authorities to secure a political win with Washington. But the operation should not be seen as a victory, writes Mexican sociologist Raúl Zepeda Gil.</p> <p>The post <a href=\"https://mexiconewsdaily.com/politics/analysis-mexico-may-pay-a-steep-price-for-the-killing-of-jalisco-cartel-leader-el-mencho/\">Analysis: Mexico may pay a steep price for the killing of Jalisco cartel leader El Mencho</a> appeared first on <a href=\"https://mexiconewsdaily.com",
     "categories": [
-      "El Bajío",
-      "News",
-      "attacks jalisco",
-      "blockades jalisco"
-    ],
-    "detected": []
-  },
-  {
-    "id": "cad4f3ce1067407c4bb3",
-    "country": "LATAM",
-    "bucket": "LATAM (regional)",
-    "source": "WIRED en Español (top)",
-    "title": "Las muestras marcianas de Perseverance peligran por los recortes de Trump",
-    "url": "https://es.wired.com/articulos/las-muestras-marcianas-de-perseverance-peligran-por-los-recortes-de-trump",
-    "published_at": "2026-02-24T20:12:30+00:00",
-    "summary": "La exploración del planeta rojo sigue avanzando, aunque la misión Mars Sample Return, considerada demasiado costosa, fue cancelada el pasado enero.",
-    "categories": [
-      "Espacio",
-      "NASA"
-    ],
-    "detected": []
-  },
-  {
-    "id": "fba4d5fe5e3b02a6615e",
-    "country": "LATAM",
-    "bucket": "LATAM (regional)",
-    "source": "WIRED en Español (top)",
-    "title": "Meta y AMD sellan acuerdo multimillonario en medio de temores por burbuja de IA y el dominio de Nvidia",
-    "url": "https://es.wired.com/articulos/meta-y-amd-sellan-acuerdo-multimillonario-en-medio-de-temores-por-burbuja-de-ia-y-el-dominio-de-nvidia",
-    "published_at": "2026-02-24T20:06:24+00:00",
-    "summary": "El acuerdo entre AMD y Meta confirma que, pese a la narrativa de una demanda computacional en expansión en la era de la IA, el capital continúa concentrándose en una porción limitada del mercado.",
-    "categories": [
-      "Meta",
-      "Inteligencia Artificial"
-    ],
-    "detected": [
-      "funding"
-    ]
-  },
-  {
-    "id": "fb14721cfd6d09172c98",
-    "country": "MX",
-    "bucket": "🇲🇽 Mexico",
-    "source": "Mexico News Daily",
-    "title": "CDMX ‘at peace’ as authorities take measures to prevent cartel violence",
-    "url": "https://mexiconewsdaily.com/news/mexico-city-at-peace-cartel-violence/",
-    "published_at": "2026-02-24T20:01:16+00:00",
-    "summary": "<p>Mayor Clara Brugada convened a “permanent” Security Cabinet session and sent 5,000 agents to guard the Mexico City International Airport following Sunday's operation against the Jalisco New Generation Cartel (CJNG).</p> <p>The post <a href=\"https://mexiconewsdaily.com/news/mexico-city-at-peace-cartel-violence/\">CDMX ‘at peace’ as authorities take measures to prevent cartel violence</a> appeared first on <a href=\"https://mexiconewsdaily.com\">Mexico News Daily</a></p>",
-    "categories": [
-      "Mexico City Plus",
-      "News",
-      "Mexico City roads",
-      "Mexico City schools",
-      "Mexico City services",
-      "Mexico CIty transportation"
-    ],
-    "detected": []
-  },
-  {
-    "id": "ab5288c1c3433b7a053d",
-    "country": "AR",
-    "bucket": "🇦🇷 Argentina",
-    "source": "Ámbito Tecnología",
-    "title": "Estos 5 signos conocerán al amor de su vida en marzo, según la IA",
-    "url": "https://www.ambito.com/tecnologia/estos-5-signos-conoceran-al-amor-su-vida-marzo-segun-la-ia-n6248430",
-    "published_at": "2026-02-24T20:00:00+00:00",
-    "summary": "El análisis de la inteligencia artificial anticipa encuentros importantes para varios perfiles del zodíaco, durante el tercer mes del año.",
-    "categories": [
-      "Tecnología"
+      "Politics"
     ],
     "detected": []
   }
