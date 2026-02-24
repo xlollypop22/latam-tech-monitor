@@ -1,0 +1,1157 @@
+[
+  {
+    "id": "331d2b30e943bf90e233",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Impacta VC sigue apostando por el talento latinoamericano y lidera una inversión en la fintech colombiana Quipu",
+    "url": "https://www.contxto.com/es/news/impacta-vc-lidera-una-inversion-en-la-fintech-colombiana-quipu/",
+    "published_at": "2026-02-24T17:16:28+00:00",
+    "summary": "Quipu, una startup colombiana de impacto, que ha captado una inversión de 300.000 dólares por parte del fondo latinoamericano de venture capital especializado en impacto social y ambiental, Impacta VC. Lo recaudado le servirá a la fintech para democratizar el acceso al crédito en América Latina. El fondo no solo participó en la última ronda [&#8230;]",
+    "categories": [],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "7f7bc1959f91e3282d8a",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Humand raises $66M Series A",
+    "url": "https://latamlist.com/humand-raises-66m-series-a/",
+    "published_at": "2026-02-24T16:58:46+00:00",
+    "summary": "<p>Argentine HR startup Humand raised $66M in a Series A round led by Kaszek Ventures and Goodwater Capital.&#8230;</p> <p>The post <a href=\"https://latamlist.com/humand-raises-66m-series-a/\">Humand raises $66M Series A</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "featured",
+      "Startup Funding",
+      "Argentina",
+      "Goodwater Capital",
+      "hr tech",
+      "Humand",
+      "Kaszek",
+      "Series A"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "ed521d3f9d0a63a3ab0d",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Tecnología",
+    "title": "EEUU investiga si DeepSeek entrenó su último modelo IA con el chip más potente de Nvidia",
+    "url": "https://www.ambito.com/tecnologia/eeuu-investiga-si-deepseek-entreno-su-ultimo-modelo-ia-el-chip-mas-potente-nvidia-n6248859",
+    "published_at": "2026-02-24T15:17:00+00:00",
+    "summary": "La startup china busca revalidar su posición en la industria de la Inteligencia Artificial tras su irrupción en 2024. El gobierno de Trump investiga una posible violación de los controles de exportación de EEUU.",
+    "categories": [
+      "Tecnología"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "034262661508ab17c65d",
+    "country": "MX",
+    "bucket": "🇲🇽 Mexico",
+    "source": "Mexico News Daily",
+    "title": "Revised figures boost Mexico’s 2025 GDP growth to 0.8%",
+    "url": "https://mexiconewsdaily.com/news/2025-gdp-growth-to-0-8/",
+    "published_at": "2026-02-23T22:05:47+00:00",
+    "summary": "<p>The national statistics agency INEGI reported that Mexico’s gross domestic product (GDP) advanced 0.9% in Q4 2025 due to a favorable revision of primary activities, bringing final 2025 growth up from 0.7% to 0.8%.</p> <p>The post <a href=\"https://mexiconewsdaily.com/news/2025-gdp-growth-to-0-8/\">Revised figures boost Mexico&#8217;s 2025 GDP growth to 0.8%</a> appeared first on <a href=\"https://mexiconewsdaily.com\">Mexico News Daily</a></p>",
+    "categories": [
+      "News",
+      "mexican manufacturing",
+      "mexico 2025 gdp growth",
+      "Mexico's INEGI GDP data",
+      "Mexico's Q4 2025 expansion"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "33816866830e4f50ac64",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "How a seasoned SaaS veteran is helping this AI startup crack the enterprise code",
+    "url": "https://www.contxto.com/en/news/how-a-seasoned-saas-veteran-is-helping-this-ai-startup-crack-the-enterprise-code/",
+    "published_at": "2026-02-23T21:35:11+00:00",
+    "summary": "Scaling an AI startup to capture the enterprise market is no walk in the park. It requires moving beyond a great product and building a machine that understands the complex, often bureaucratic needs of massive organizations. Prezent AI is signaling it is more than ready for that challenge, announcing today that heavy-hitting tech veteran Tony [&#8230;]",
+    "categories": [],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "e8ff8b193a08cf059600",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "WIRED en Español (top)",
+    "title": "El InnovaFest 2026 busca impulsar los proyectos más brillantes de México",
+    "url": "https://es.wired.com/articulos/ia-robots-y-hasta-aeronautica-el-innovafest-2026-busca-impulsar-los-proyectos-mas-brillantes-de-mexico",
+    "published_at": "2026-02-23T21:03:15+00:00",
+    "summary": "La convocatoria para el InnovaFest 2026 está abierta para todos aquellos con ideas tecnológicas sólidas que puedan abordar los principales retos de la nación.",
+    "categories": [
+      "México",
+      "Startup",
+      "Tecnología"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "9dea507a479d48991c54",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Takeat raises $2.9M Series A round",
+    "url": "https://latamlist.com/takeat-raises-2-9m-series-a-round/",
+    "published_at": "2026-02-20T23:21:00+00:00",
+    "summary": "<p>Brazilian foodtech Takeat raised $2.9M Series A round led by DGF Investimentos, with participation from Quartzo. Takeat offers&#8230;</p> <p>The post <a href=\"https://latamlist.com/takeat-raises-2-9m-series-a-round/\">Takeat raises $2.9M Series A round</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Brazil",
+      "DGF Investimentos",
+      "Foodtech",
+      "Series A",
+      "Takeat"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "a8b1c312a797191493d0",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "EFEX raises $8M seed round",
+    "url": "https://latamlist.com/efex-raises-8m-seed-round/",
+    "published_at": "2026-02-20T21:43:39+00:00",
+    "summary": "<p>EFEX, a Mexico-based financial platform focused on global treasury and cross-border payments for mid-market companies, raised an $8M&#8230;</p> <p>The post <a href=\"https://latamlist.com/efex-raises-8m-seed-round/\">EFEX raises $8M seed round </a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "EFEX",
+      "Fintech",
+      "Floodgate",
+      "Mexico",
+      "Payments",
+      "PayPal Ventures"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "1180c314702ccb281f26",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "WIRED en Español (top)",
+    "title": "La mafia gay de Silicon Valley: Todo sobre el mayor rumor de la industria tecnológica",
+    "url": "https://es.wired.com/articulos/la-mafia-gay-de-silicon-valley-todo-sobre-el-mayor-rumor-de-la-industria-tecnologica",
+    "published_at": "2026-02-19T23:41:47+00:00",
+    "summary": "Hace tiempo que se rumorea que los hombres homosexuales dirigen Silicon Valley. WIRED lo investiga.",
+    "categories": [
+      "Silicon Valley",
+      "Startup",
+      "Tecnología",
+      "Sociedad"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "4e97cdb1b14187e081ef",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Listo raises $190M in FIDC",
+    "url": "https://latamlist.com/listo-raises-190m-in-fidc/",
+    "published_at": "2026-02-18T16:46:50+00:00",
+    "summary": "<p>Brazilian fintech Listo raised $190M through a Credits Right Investment Fund (FIDC) supported by Itaú BBA and UBS&#8230;</p> <p>The post <a href=\"https://latamlist.com/listo-raises-190m-in-fidc/\">Listo raises $190M in FIDC </a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Brazil",
+      "FIDC",
+      "Fintech",
+      "Itaú Ventures",
+      "Listo"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "9377bf4c15377ce1eadc",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "ADvendio introduces a revenue OS designed for agentic advertising",
+    "url": "https://www.contxto.com/en/news/advendio-introduces-a-revenue-os-designed-for-agentic-advertising/",
+    "published_at": "2026-02-18T14:01:16+00:00",
+    "summary": "ADvendio announced the launch of the Revenue OS for Agentic Advertising, a new category of technology designed to reclaim the 28% of the workday currently lost to manual human middleware tasks. At the heart of this shift is AdOne (formerly ADvendio One), the core engine built to plan, execute, and solve problems autonomously with enterprise-grade [&#8230;]",
+    "categories": [],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "433b9f7fb16a8bdce49b",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Kavak closes $300 million Series F round led by Andreessen Horowitz",
+    "url": "https://www.contxto.com/en/news/kavak-closes-300-million-series-f-round-led-by-andreessen-horowitz/",
+    "published_at": "2026-02-17T22:17:38+00:00",
+    "summary": "Mexican car buying and selling unicorn Kavak closed a US$300 million investment round led by Andreesen Horowitz, of which $200 million was contributed by its a16z Growth fund. &#8220;This is Andreessen Horowitz&#8217;s largest investment in a single company in Latin America and the first investment in the region from our a16z Growth fund. Kavak has [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "48026c3d5756d4185ae7",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Kavak raises $300M round led by Andreessen Horowitz",
+    "url": "https://latamlist.com/kavak-raises-300m-round-led-by-andreessen-horowitz/",
+    "published_at": "2026-02-17T17:13:52+00:00",
+    "summary": "<p>Mexico-based online used car marketplace Kavak raised $300M in an equity round led by Andreessen Horowitz, which invested&#8230;</p> <p>The post <a href=\"https://latamlist.com/kavak-raises-300m-round-led-by-andreessen-horowitz/\">Kavak raises $300M round led by Andreessen Horowitz</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "featured",
+      "Startup Funding",
+      "Andreessen Horowitz",
+      "kavak",
+      "Mexico"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "315410d2b8b518a7487b",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "BemAgro raises $5.8M Series A",
+    "url": "https://latamlist.com/bemagro-raises-5-8m-series-a/",
+    "published_at": "2026-02-16T23:52:55+00:00",
+    "summary": "<p>Brazilian agtech BemAgro raised $5.8M in a Series A round led by The Yield Lab Latam. Grupo Colorado&#8230;</p> <p>The post <a href=\"https://latamlist.com/bemagro-raises-5-8m-series-a/\">BemAgro raises $5.8M Series A</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "a55b8331144e324bdefd",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Solvento raises $25M from BBVA Spark",
+    "url": "https://latamlist.com/solvento-raises-25m-from-bbva-spark/",
+    "published_at": "2026-02-16T19:22:01+00:00",
+    "summary": "<p>Solvento, a Mexican platform that provides liquidity and payment solutions to the logistics and transportation sector, raised $25M&#8230;</p> <p>The post <a href=\"https://latamlist.com/solvento-raises-25m-from-bbva-spark/\">Solvento raises $25M from BBVA Spark</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "featured",
+      "Startup Funding",
+      "BBVA Spark",
+      "Fintech",
+      "Mexico",
+      "Solvento"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "49eb9f26db6c96f4dd49",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Venture in LatAm Enters 2026",
+    "url": "https://latamlist.com/venture-in-latam-enters-2026/",
+    "published_at": "2026-02-16T15:55:50+00:00",
+    "summary": "<p>By 2026, it is clear that Latin America’s startup ecosystem has moved past the post-2021 correction. Capital is&#8230;</p> <p>The post <a href=\"https://latamlist.com/venture-in-latam-enters-2026/\">Venture in LatAm Enters 2026</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "VC Advice",
+      "Latin America",
+      "Venture Capital"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "84c6cde5c3f4592f9fd1",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "The three startup sectors that attract the most interest from investors",
+    "url": "https://www.contxto.com/en/news/the-three-startup-sectors-that-attract-the-most-interest-from-investors/",
+    "published_at": "2026-02-13T21:20:07+00:00",
+    "summary": "Over the past year, artificial intelligence has attracted more than half of all global venture capital. But the sector&#8217;s growth has not necessarily come at the expense of other emerging industries. On the contrary, areas that benefit from AI-driven automation, such as legal tech, or that combine artificial intelligence software with physical technology, such as [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "e7d8e1e470acb1c8fdd9",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList Startup News",
+    "title": "Zippi raises $42M for its FIDC",
+    "url": "https://latamlist.com/zippi-raises-42m-for-its-fidc/",
+    "published_at": "2026-02-13T21:10:10+00:00",
+    "summary": "<p>Brazilian fintech Zippi raised $42M for its Credit Rights Investment Fund (FIDC), marking its third investment round for&#8230;</p> <p>The post <a href=\"https://latamlist.com/zippi-raises-42m-for-its-fidc/\">Zippi raises $42M for its FIDC</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Brazil",
+      "FIDC",
+      "Fintech",
+      "Zippi"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "f5f4917bc7346c7a3da8",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList Funding",
+    "title": "Proptech Lebane raises $4M seed round",
+    "url": "https://latamlist.com/proptech-lebane-raises-4m-seed-round/",
+    "published_at": "2026-02-12T18:02:37+00:00",
+    "summary": "<p>Argentine proptech Lebane raised a $4M seed round led by Atlántico and Zacua Ventures. ADN.vc, Fen Ventures, Kuiper&#8230;</p> <p>The post <a href=\"https://latamlist.com/proptech-lebane-raises-4m-seed-round/\">Proptech Lebane raises $4M seed round</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Argentina",
+      "atlantico",
+      "Lebane",
+      "Proptech",
+      "Seed",
+      "Zacua Ventures"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "7410a25ac5956be947d6",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Leap Venture Studio Opens Applications for Its 10th PetTech Accelerator Cohort",
+    "url": "https://www.contxto.com/en/news/leap-venture-studio-opens-applications-for-its-10th-pettech-accelerator-cohort/",
+    "published_at": "2026-02-10T19:46:00+00:00",
+    "summary": "Known as the &#8216;pet tech&#8217; sector, the pet care industry merges digital innovation with animal welfare, creating solutions ranging from health monitoring wearables and smart food dispensers to veterinary telemedicine platforms and behavior management apps. This market, valued at $60 billion by 2035, is no longer limited to traditional food and toys, but is moving [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "430a3bcff20d89016702",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "La aceleradora Zero by Fifty impulsa startups que convierten ideas en impacto",
+    "url": "https://www.contxto.com/es/news/la-aceleradora-zero-by-fifty-impulsa-startups-que-convierten-ideas-en-impacto/",
+    "published_at": "2026-02-10T19:13:23+00:00",
+    "summary": "Zero by Fifty se posiciona como un actor clave dentro del ecosistema emprendedor al cerrar una brecha histórica entre las ideas innovadoras y su ejecución empresarial. La firma trabaja con startups que buscan impacto real y crecimiento sostenible, especialmente en regiones donde el talento abunda, pero el acceso a oportunidades sigue limitado. El proyecto nació [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "abf44e291ccad7b63236",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList Funding",
+    "title": "Avenia raises $17M Series A",
+    "url": "https://latamlist.com/avenia-raises-17m-series-a/",
+    "published_at": "2026-02-10T18:32:19+00:00",
+    "summary": "<p>Brazilian fintech Avenia raised a $17M Series A round with participation from Quona, Fluent Ventures, Tomorrow Capital, and&#8230;</p> <p>The post <a href=\"https://latamlist.com/avenia-raises-17m-series-a/\">Avenia raises $17M Series A</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Avenia",
+      "Brazil",
+      "Fintech",
+      "Series A"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "c3d98d6695773f7839de",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "La startup salvadoreña Jobbi apuesta por la IA para escalar los procesos de contratación global",
+    "url": "https://www.contxto.com/es/news/la-startup-salvadorena-jobbi-apuesta-por-la-ia-para-escalar-los-procesos-de-contratacion-global/",
+    "published_at": "2026-02-09T19:59:28+00:00",
+    "summary": "Durante años el ecosistema de emprendimiento centroamericano ha estado concentrado principalmente en México. Actualmente, esa narrativa empieza a equilibrarse desde lugares que históricamente no figuraban en el mapa de la innovación tecnológica. Uno de ellos es El Salvador, donde una startup local está demostrando que la infraestructura del trabajo del futuro también puede diseñarse desde [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "f786a89d8507b157128e",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList Funding",
+    "title": "Quipu raises $300K bridge round led by Impacta VC",
+    "url": "https://latamlist.com/quipu-raises-300k-bridge-round-led-by-impacta-vc/",
+    "published_at": "2026-02-09T18:01:01+00:00",
+    "summary": "<p>Colombian fintech startup Quipu raised a $300K bridge round led by Impacta VC, with participation from Decelera, Vertical&#8230;</p> <p>The post <a href=\"https://latamlist.com/quipu-raises-300k-bridge-round-led-by-impacta-vc/\">Quipu raises $300K bridge round led by Impacta VC</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Bridge",
+      "Colombia",
+      "Fintech",
+      "Impacta VC",
+      "Quipu"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "70b0bf94f30620faa91e",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "iProUP Startups",
+    "title": "Startup argentina resolvió dolor clave del home office: tiene de clientes grandes de la región",
+    "url": "https://www.iproup.com/startups/64682-argentinos-resuelven-dolor-clave-del-home-office-tiene-clientes-en-toda-la-region",
+    "published_at": "2026-02-07T09:15:00+00:00",
+    "summary": "El servicio lo utilizan firmas como Cocos Capital, Humand, Figma, Scale AI, Complif y Tapi y busca ser un referente del sector tecnológico a nivel global.",
+    "categories": [
+      "Propia"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "ecc9d4dabdb3df6c4104",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Fintech ecuatoriana Jelou levanta 10 millones de dólares en Serie A  para escalar su plataforma de pagos en WhatsApp",
+    "url": "https://www.contxto.com/es/fintech/fintech-ecuatoriana-jelou-levanta-10-millones-de-dolares-en-serie-a-para-escalar-su-plataforma-de-pagos-en-whatsapp/",
+    "published_at": "2026-02-05T22:07:16+00:00",
+    "summary": "En una reciente recaudación de fondos Serie A liderada por Wellington Access Ventures, Krealo y Collide Capital; la ecuatoriana Jelou, levantó 10 millones de dólares que serán destinados para seguir fortaleciendo su modelo de negocio. La startup destinará el capital recaudado para expandir Brain OS, su plataforma tecnológica que permite a las empresas crear y [&#8230;]",
+    "categories": [
+      "Fintech"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "d159df32065e9900c32c",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Kaszek lidera Serie B de tapi por 27 millones de dólares para fortalecer su infraestructura de pagos",
+    "url": "https://www.contxto.com/es/funding/kaszek-lidera-serie-b-de-tapi-por-27-millones-de-dolares-para-fortalecer-su-infraestructura-de-pagos/",
+    "published_at": "2026-02-04T21:43:18+00:00",
+    "summary": "Tapi, startup que ofrece infraestructura de pagos, cerró una Serie B por 27 millones de dólares, liderada por el fondo latinoamericano Kaszek. En la ronda también participaron Endeavor Catalyst y Latitud. Con esta inversión, la startup de origen argentino está recaudando 60 millones de dólares desde su fundación en 2022, año de pleno auge del [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "8a428d67b40be4d832d1",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Mexican company Leracom AI raises $1 million to boost the development of its product through AI",
+    "url": "https://www.contxto.com/en/funding/mexican-company-leracom-ai-raises-1-million-to-boost-the-development-of-its-product-through-ai/",
+    "published_at": "2026-02-03T15:57:34+00:00",
+    "summary": "In a recent Pre-Seed round, Mexican company Leracom AI raised US$1 million to scale its artificial intelligence platform focused on transforming contact center operations. Founded by Guillermo Treviño and Julio Barrera Andrade, Leracom AI will accelerate the development of its product and also has plans to expand its business model throughout Latin America. It currently [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "0f135ecf1e0703386f18",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Colombian unicorn Habi acquires Mexican company Pulppo",
+    "url": "https://www.contxto.com/en/acquisition/colombian-unicorn-habi-acquires-mexican-company-pulppo/",
+    "published_at": "2026-01-29T18:19:52+00:00",
+    "summary": "Colombian unicorn Habi (known in Mexico as Tuhabi), which specializes in the sale of used homes in Latin America, has acquired Mexican proptech Pulppo, founded in 2022 by Agustín Iglesias and Mathias Gath. The goal of the purchase, whose amount was not disclosed, is to &#8220;accelerate the construction of a more efficient, secure, and professional [&#8230;]",
+    "categories": [
+      "Acquisition"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "9a3147478f31c7538169",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Accion and Bancoagrícola announce partnership to promote financial inclusion in El Salvador",
+    "url": "https://www.contxto.com/en/fintech/accion-and-bancoagricola-announce-partnership-to-promote-financial-inclusion-in-el-salvador/",
+    "published_at": "2026-01-28T17:51:28+00:00",
+    "summary": "In an effort to promote financial inclusion and digital banking in the Salvadoran economy, Bancoagrícola has partnered with Accion and the Mastercard Center for Inclusive Growth. The initiative also seeks to use remittances, which account for a quarter of the country&#8217;s gross domestic product, as an entry point to integrate low-income populations into the formal [&#8230;]",
+    "categories": [
+      "Fintech"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "257380f0be29dcd5917a",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Chilean company Enerlink raises $3.1 million to expand its electromobility model",
+    "url": "https://www.contxto.com/en/funding/chilean-company-enerlink-raises-3-1-million-to-expand-its-electromobility-model/",
+    "published_at": "2026-01-26T21:05:58+00:00",
+    "summary": "Chilean startup Enerlink, which offers comprehensive charging solutions for electromobility, has raised US$3.1 million in a round co-led by Kayyak Ventures and Dalus Capital, together with Inder, the family office of businessman José Luis del Río. The capital will be used to accelerate the startup&#8217;s international expansion, strengthen its operations in the eight countries where [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "6a4c0f7d17fe8412dbf0",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "La chilena Enerlink levanta 3.1 millones de dólares para expandir su modelo de electromovilidad",
+    "url": "https://www.contxto.com/es/funding/la-chilena-enerlink-levanta-3-1-millones-de-dolares-para-expandir-su-modelo-de-electromovilidad/",
+    "published_at": "2026-01-26T21:05:58+00:00",
+    "summary": "La startup chilena, Enerlink dedicada a ofrecer soluciones integrales de carga para la electromovilidad, ha recaudado 3.1 millones de dólares en una ronda co-liderada por Kayyak Ventures y Dalus Capital, junto con Inder, el family office del empresario José Luis del Río. El capital será destinado para acelerar la expansión internacional de la startup, fortalecer [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "779029d58c6449321f89",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Fracttal raises $35 million in a round led by Riverwood Capital",
+    "url": "https://www.contxto.com/en/funding/fracttal-raises-35-million-in-a-round-led-by-riverwood-capital/",
+    "published_at": "2026-01-21T15:27:22+00:00",
+    "summary": "Fracttal, the startup offering AI-powered maintenance and asset management software, has just raised US$35 million in a growth financing round led by Riverwood Capital. The round included participation from all current investors and reinforces Fracttal&#8217;s position as a global leader in maintenance, while enabling the company to reach more markets and customers who can benefit [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "bdf9cc556acb46c1deda",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Fracttal levanta 35 millones de dólares en una ronda liderada por Riverwood Capital",
+    "url": "https://www.contxto.com/es/funding/fracttal-cierra-una-ronda-de-35-millones-de-dolares-para-su-expansion-en-latinoamerica/",
+    "published_at": "2026-01-21T15:27:22+00:00",
+    "summary": "Fracttal, la startup que ofrece software de mantenimiento y gestión de activos impulsado por IA, acaba de recaudar 35 millones de dólares en una ronda de financiación de crecimiento liderada por Riverwood Capital. La ronda contó con la participación de todos los inversores actuales y refuerza la posición de Fracttal como referente global en mantenimiento, [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "6f18e34c8620eb5708c1",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Dealism commits to the Mexican market with a $15 million funding round",
+    "url": "https://www.contxto.com/en/funding/dealism-commits-to-the-mexican-market-with-a-15-million-funding-round/",
+    "published_at": "2026-01-20T16:02:36+00:00",
+    "summary": "Leo Huan, former president of Youzan, the first Chinese SaaS company to go public, has raised US$15 million for his new startup, Dealism. The round was led by GL Ventures, with participation from HSG, Linear Capital, and other angel investors. Huan, whose experience includes sales operations exceeding 100 billion yuan (roughly USD$14.3m), seeks to revolutionize [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "2ecb158cabeed45726a3",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Dealism apuesta por el mercado mexicano con una ronda de 15 millones de dólares",
+    "url": "https://www.contxto.com/es/funding/dealism-apuesta-por-el-mercado-mexicano-con-una-ronda-de-15-millones-de-dolares/",
+    "published_at": "2026-01-20T16:02:36+00:00",
+    "summary": "Leo Huan, antiguo presidente de Youzan, la primera empresa china de SaaS en cotizar en bolsa, ha recaudado 15 millones de dólares para su nueva startup, Dealism. La ronda fue liderada por GL Ventures, con participación de HSG, Linear Capital y otros inversionistas ángeles. Huan, cuya experiencia incluye operaciones de ventas que superaron los 100 [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "e63bc6fa01678c9a13e2",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Venture capital in 2025: The year of artificial intelligence and mega-investment rounds",
+    "url": "https://www.contxto.com/en/venture-capital/venture-capital-in-2025-the-year-of-artificial-intelligence-and-mega-investment-rounds/",
+    "published_at": "2026-01-09T18:31:02+00:00",
+    "summary": "In the startup world, 2025 will be remembered as the year of mega-funding rounds, especially in artificial intelligence. According to Crunchbase data, 15 companies globally raised individual rounds equal to or greater than US$2 billion, accumulating more than US$100 billion in total funding. What stands out most is the dominance of generative AI startups, which [&#8230;]",
+    "categories": [
+      "Venture Capital"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "71d758dbe0a9a91465c0",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Automotus, the startup that uses AI to automate cities, receives a new round of $9 million in funding",
+    "url": "https://www.contxto.com/en/inteligencia-artificial/automotus-the-startup-that-uses-ai-to-automate-cities-receives-a-new-round-of-9-million-in-funding/",
+    "published_at": "2026-01-07T16:41:09+00:00",
+    "summary": "Los Angeles-based software company Automotus, which specializes in traffic monitoring technology management, announced a new US$9 million round of funding. With this latest capital injection, the startup founded in 2017 has raised a total of US$26 million. According to a statement, investors such as Santa Barbara Venture Partners, Weatherford Capital, BarronKent Ventures, Techstars Ventures, and [&#8230;]",
+    "categories": [
+      "Inteligencia Artificial"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "68f608671ae5796c9fa0",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Automotus, la startup que usa IA para automatizar ciudades, recibe una nueva ronda de 9 millones de dólares",
+    "url": "https://www.contxto.com/es/inteligencia-artificial/automotus-la-startup-que-usa-ia-para-automatizar-ciudades-recibe-una-nueva-ronda-de-9-millones-de-dolares/",
+    "published_at": "2026-01-07T16:41:09+00:00",
+    "summary": "La empresa de software Automotus, con sede en Los Ángeles y especializada en gestión de tecnología para monitorización del tráfico, anunció una nueva ronda de financiación por 9 millones de dólares. Con esta última inyección de capital, la startup fundada en 2017 ha recaudado un total de 26 millones de dólares. Según un comunicado, en [&#8230;]",
+    "categories": [
+      "Inteligencia Artificial"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "4970dd478274e7dec167",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Mexico’s Luca raises $8 million to bring its EdTech solution to Latin America",
+    "url": "https://www.contxto.com/en/featured/mexicos-luca-raises-8-million-to-bring-its-edtech-solution-to-latin-america/",
+    "published_at": "2026-01-05T16:07:32+00:00",
+    "summary": "Artificial intelligence-powered learning platform Luca announced the closing of a US$8 million Series A round. The investment was led by UK and Belgium-based venture capital fund 6 Degrees Capital, with participation from Explorer, Heartcore Capital and Shilling VC. This new capital injection brings the total raised by the startup to more than US$13 million. The [&#8230;]",
+    "categories": [
+      "Featured"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "f80e90f5773458e5909d",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "iProUP Startups",
+    "title": "Lanzan la segunda edición de la Encuesta Nacional a Emprendedores",
+    "url": "https://www.iproup.com/startups/63044-lanzan-la-segunda-edicion-de-la-encuesta-nacional-a-emprendedores",
+    "published_at": "2025-12-17T12:48:00+00:00",
+    "summary": "Mientras se debate la Reforma Laboral, ASEA lanzó su segunda encuesta nacional destinada a conocer en detalle el ecosistema emprendedor",
+    "categories": [
+      "Propia"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "8c333a1b6aec47825a64",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Brazilian startup redefining infant nutrition with biotechnology",
+    "url": "https://www.contxto.com/en/news/brazilian-startup-redefining-infant-nutrition-with-biotechnology/",
+    "published_at": "2025-12-12T18:25:27+00:00",
+    "summary": "Globally, most of the 130 million babies born each year consume infant formula at some point in their first months of life. Approximately 50% of mothers perceive that their milk production is insufficient, and three out of five infants do not receive breast milk in their first hour of life. This is a reality that [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "9881169ad74407674e4e",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "La startup brasileña que está redefiniendo la nutrición infantil con biotecnología",
+    "url": "https://www.contxto.com/es/news/la-startup-brasilena-que-esta-redefiniendo-la-nutricion-infantil-con-biotecnologia/",
+    "published_at": "2025-12-12T18:25:27+00:00",
+    "summary": "A nivel global, la mayoría de los 130 millones de bebés que nacen cada año consume fórmula infantil en algún momento de sus primeros meses de vida. Aproximadamente el 50% de las madres percibe que su producción de leche es insuficiente, y tres de cada cinco lactantes no reciben leche materna en su primera hora [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "889f96e23d8805faf7ba",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "AstraZeneca and Tec de Monterrey Launch Accelerator for AI, Data, and Sustainability Solutions",
+    "url": "https://www.contxto.com/en/aceleracion/astrazeneca-and-tec-de-monterrey-team-up-to-accelerate-ai-data-and-sustainability-innovation/",
+    "published_at": "2025-12-10T14:52:30+00:00",
+    "summary": "AstraZeneca&#8217;s Global Innovation and Technology Center (GITC) in Guadalajara is excited to announce the launch of its Innovation Space Accelerator. This intensive eight-week program, developed in partnership with Tecnológico de Monterrey, seeks to accelerate employee-led projects in artificial intelligence, data analytics, sustainability, and human talent technology. Driven by Tec de Monterrey&#8217;s Eugenio Garza Lagüera Entrepreneurship [&#8230;]",
+    "categories": [
+      "Aceleracion"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "61c6b0bf356276de9c6a",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "AstraZeneca y el Tec de Monterrey lanzan aceleradora para impulsar soluciones de IA, datos y sostenibilidad",
+    "url": "https://www.contxto.com/es/aceleracion/astrazeneca-y-el-tec-de-monterrey-lanzan-aceleradora-para-impulsar-soluciones-de-ia-datos-y-sostenibilidad/",
+    "published_at": "2025-12-10T14:52:30+00:00",
+    "summary": "El Global Innovation and Technology Centre (GITC) de AstraZeneca en Guadalajara anuncia con entusiasmo el lanzamiento de su Innovation Space Accelerator. Este programa intensivo de ocho semanas, desarrollado en alianza con el Tecnológico de Monterrey, busca acelerar proyectos liderados por empleados en inteligencia artificial, analítica de datos, sostenibilidad y tecnología para el talento humano. Impulsada [&#8230;]",
+    "categories": [
+      "Aceleracion"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "a87e98948255419b9d20",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "The startup powering the sales industry with AI agents",
+    "url": "https://www.contxto.com/en/artificial-intelligence/the-startup-powering-the-sales-industry-with-ai-agents/",
+    "published_at": "2025-12-04T20:28:09+00:00",
+    "summary": "Contrary to predictions, the artificial intelligence revolution is manifesting with precision and less disruption than expected. A recent paper published by MIT suggests that the most significant impact will not be on job roles, but rather on specific tasks within them. This insight is precisely what guides Myuser, a startup offering B2B autonomous agent solutions. [&#8230;]",
+    "categories": [
+      "Artificial Intelligence"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "042dca8ab87400205de2",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Esta startup está impulsando el sector de las ventas con agentes de IA",
+    "url": "https://www.contxto.com/es/artificial-intelligence/esta-startup-esta-impulsando-el-sector-de-las-ventas-con-agentes-de-ia/",
+    "published_at": "2025-12-04T20:28:09+00:00",
+    "summary": "Contrario a las predicciones, la revolución de la inteligencia artificial en el mundo laboral podría manifestarse de forma más precisa y menos disruptiva de lo esperado. Una investigación reciente publicada por el MIT sugiere que el impacto más significativo no recaerá sobre ocupaciones enteras, sino sobre tareas específicas dentro de ellas. Eso es lo que [&#8230;]",
+    "categories": [
+      "Artificial Intelligence"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "82a9d875c1f7fe39e32b",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Startup Emmi drives a new educational model in Mexico",
+    "url": "https://www.contxto.com/en/news/startup-emmi-drives-a-new-educational-model-in-mexico/",
+    "published_at": "2025-12-04T20:03:00+00:00",
+    "summary": "Education in Mexico faces inequality, insufficient infrastructure, low levels of learning and high dropout rates, challenges that demonstrate the urgency of transforming the system. These problems affect both students and teachers and limit educational development throughout the country, according to Loyola University of America. Faced with this panorama, the new educational model and the incorporation [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "8d08d46ea239f07c6860",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Startup Emmi impulsa un nuevo modelo educativo en México",
+    "url": "https://www.contxto.com/es/news/startup-emmi-impulsa-un-nuevo-modelo-educativo-en-mexico/",
+    "published_at": "2025-12-04T20:03:00+00:00",
+    "summary": "La educación en México enfrenta desigualdad, infraestructura insuficiente, bajos niveles de aprendizaje y una alta deserción escolar, retos que evidencian la urgencia de transformar el sistema. Estas problemáticas afectan tanto a estudiantes como a docentes y limitan el desarrollo educativo en todo el país, señala la Universidad Loyola de América. Frente a este panorama, el [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "ceed1b433e7246671aec",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "South Summit Brazil busca las 50 startups que definirán el futuro de la innovación latinoamericana",
+    "url": "https://www.contxto.com/es/news/south-summit-brazil-busca-las-50-startups-que-definiran-el-futuro-de-la-innovacion-latinoamericana/",
+    "published_at": "2025-11-25T17:34:23+00:00",
+    "summary": "El ecosistema emprendedor de América Latina tiene una cita crucial en Porto Alegre. South Summit Brazil mantiene abiertas las inscripciones para que startups de la región postulen a su competencia 2026, que se celebrará del 25 al 27 de marzo. El plazo finaliza el 22 de diciembre. La convocatoria espera superar las 2.000 postulaciones, consolidándose [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "22b43c5260ed821d2ecb",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Unergy raises $4 million and will build solar mini-grids to democratize access to clean energies",
+    "url": "https://www.contxto.com/en/climate-tech/unergy-raises-4-million-and-will-build-solar-mini-grids-to-democratize-access-to-clean-energies/",
+    "published_at": "2025-11-24T15:05:02+00:00",
+    "summary": "Colombian startup Unergy, focused on investing in the development of solar mini-grids to increase clean energy generation in the country, has raised US$4 million in its latest pre-Series A round. The round comes with a US$80 million financing commitment, which brings the total financing committed to Unergy to US$120 million, when adding this figure to [&#8230;]",
+    "categories": [
+      "Climate Tech"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "503633bbd2f51034623c",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Unergy levanta 4 millones de dólares y construirá minigranjas solares para democratizar el acceso a energías limpias",
+    "url": "https://www.contxto.com/es/climate-tech-2/unergy-levanta-4-millones-de-dolares-minigranjas-solares-energias-limpias/",
+    "published_at": "2025-11-24T15:05:02+00:00",
+    "summary": "La startup colombiana Unergy enfocada en invertir en el desarrollo de Minigranjas solares para aumentar la generación de energía limpia en el país ha levantado 4 millones de dólares en su última ronda pre-Serie A. La ronda que viene con un compromiso de financiación de 80 millones, lo que eleva el total de financiamiento comprometido [&#8230;]",
+    "categories": [
+      "Climate Tech"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "b9fe4b57aa5e456e8dc5",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Mexico’s Ginia raised US$1.7 million in pre-seed round and will accelerate its expansion in Latin America",
+    "url": "https://www.contxto.com/en/news/mexicos-ginia-raised-us1-7-million-in-pre-seed-round-and-will-accelerate-its-expansion-in-latin-america/",
+    "published_at": "2025-11-21T17:46:27+00:00",
+    "summary": "Mexican Edtech Ginia, dedicated to connecting companies, educational institutions and students, using artificial intelligence to boost employability, has raised US$1.7 million dollars in a pre-seed round and will accelerate its expansion in Latin America. The pre-seed funding round for the startup founded in 2025 by Melissa Manrique, Renata Millet and Antía Vázquez, was led by [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "783fb4f691ce411de624",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "La mexicana Ginia recaudó 1,7 mdd en una ronda pre-semilla y acelerará su expansión por América Latina",
+    "url": "https://www.contxto.com/es/news/la-mexicana-ginia-recaudo-17-mdd-en-una-ronda-pre-semilla-y-acelerara-su-expansion-por-america-latina/",
+    "published_at": "2025-11-21T17:46:27+00:00",
+    "summary": "La Edtech mexicana Ginia dedicada a conectar empresas, instituciones educativas y estudiantes, usando la inteligencia artificial para potenciar la empleabilidad, ha recaudado 1,7 mdd en una ronda pre-semilla y acelerará su expansión por América Latina. La ronda de financiación pre-semilla de la startup fundada en el 2025 por Melissa Manrique, Renata Millet y Antía Vázquez, [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "6a7172da427cbca35464",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "One Way Summit, the event that will bring together global investors, founders and stakeholders",
+    "url": "https://www.contxto.com/en/events/one-way-summit-the-event-that-will-bring-together-global-investors-founders-and-stakeholders/",
+    "published_at": "2025-11-19T17:41:02+00:00",
+    "summary": "Behind America&#8217;s corporate success is a global community. An analysis by the American Immigration Council reveals that 46.2% of Fortune 500 companies-equivalent to 231 companies-were founded by immigrants or their children. These companies collectively generated US$8.6 trillion in 2024 and employ more than 15.4 million people globally. The story repeats itself in innovation ecosystems, where [&#8230;]",
+    "categories": [
+      "Events"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "bd1a1c8d7aa02850f05d",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "ReForest Latam raises $1 million to boost its climate solutions and biodiversity business model",
+    "url": "https://www.contxto.com/en/news/reforest-latam-raises-1-million-to-boost-its-climate-solutions-and-biodiversity-business-model/",
+    "published_at": "2025-11-19T17:12:22+00:00",
+    "summary": "Argentine startup ReForest Latam, a climate and biodiversity solutions company, closed a US$1 million pre-seed funding round in a bid to restore ecosystems on a large scale, combining advanced technology and innovative strategies to regenerate nature. The funding round was led by iThink VC and also involved Innventure AgriFood Tech, Antom, BP Soluciones Electricas Confiables, [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "1fa6be251c91b8a1616f",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "ReForest Latam recauda 1 millón de dólares para impulsar su modelo de negocio de soluciones climáticas y biodiversidad",
+    "url": "https://www.contxto.com/es/news/reforest-latam-recauda-1-millon-de-dolares-para-impulsar-su-modelo-de-negocio-de-soluciones-climaticas-y-biodiversidad/",
+    "published_at": "2025-11-19T17:12:22+00:00",
+    "summary": "La startup argentina ReForest Latam, una empresa de soluciones climáticas y de biodiversidad, cerró una ronda de financiación pre-semilla de 1 millón de dólares en una apuesta por restaurar ecosistemas a gran escala, combinando tecnología avanzada, biotecnología y estrategias innovadoras para regenerar la naturaleza. La ronda de recaudación de fondos fue liderada por iThink VC [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "5674dbdc432637ff2b32",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Endeavor impulsa el crecimiento de sus startups en México",
+    "url": "https://www.contxto.com/es/aceleracion/endeavor-impulsa-el-crecimiento-de-sus-startups-en-mexico/",
+    "published_at": "2025-11-14T17:17:05+00:00",
+    "summary": "Este 2025 marca un punto de inflexión para el crecimiento de las startups en México. Tras años de ajustes e incertidumbre global, el ecosistema emprendedor vive una nueva etapa de consolidación, innovación y optimismo, impulsada por el talento local y la madurez de sus actores estratégicos. Para Vincent Speranza, Director General de Endeavor México, el [&#8230;]",
+    "categories": [
+      "Aceleracion"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "fd62cd12d816b304c41f",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "iProUP Startups",
+    "title": "Talentum amplía operaciones en EE.UU. y suma nuevo fundador",
+    "url": "https://www.iproup.com/startups/61986-talentum-amplia-operaciones-en-eeuu-y-suma-nuevo-fundador",
+    "published_at": "2025-11-13T23:30:00+00:00",
+    "summary": "La startup creada por tres jóvenes de 22 años ya sumaron más de 50 firmas como clientes, entre los que aparece un gigante estadounidense",
+    "categories": [
+      "Propia"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "16d94ccf25cc2e007f22",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "iProUP Startups",
+    "title": "El CEO de Ualá fue distinguido por Endeavor en su Gala Anual",
+    "url": "https://www.iproup.com/coffee-break/61920-pierpaolo-barbieri-recibio-el-premio-endeavor-del-ano-2025",
+    "published_at": "2025-11-12T20:20:00+00:00",
+    "summary": "Más de 500 líderes, inversores y fundadores participaron de la Gala Anual 2025, que destacó la innovación y el espíritu emprendedor local.",
+    "categories": [
+      "Cable"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "aab7995b20661d3523c7",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "500 Global abre una nueva convocatoria para invertir en startups de Latinoamérica",
+    "url": "https://www.contxto.com/es/aceleration/500-global-abre-una-nueva-convocatoria-para-invertir-en-startups-de-latinoamerica/",
+    "published_at": "2025-11-11T17:36:05+00:00",
+    "summary": "El ecosistema emprendedor latinoamericano vive un momento decisivo. Startups que han demostrado su capacidad para innovar y escalar localmente ahora enfrentan un nuevo desafío: competir en el escenario global. Para estas empresas, 500 Global extiende una convocatoria que podría marcar su transición de jugadores regionales a contendientes internacionales. La firma de capital de riesgo seleccionará [&#8230;]",
+    "categories": [
+      "Aceleration"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "8160209cca5e706c7aaf",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Argentina’s The Mobile-First Company raises $12 million round and announces creation of new AI-based tools",
+    "url": "https://www.contxto.com/en/funding/argentinas-the-mobile-first-company-raises-12-million-round-and-announces-creation-of-new-ai-based-tools/",
+    "published_at": "2025-11-05T17:54:59+00:00",
+    "summary": "Argentine startup The Mobile-First Company announced the closing of a US$12 million investment round led by Base10 Partners and Lightspeed Venture Partners. The deal will serve as an incentive for the creation of new optimization solutions based on artificial intelligence. The round was backed by prominent investors from the global AI ecosystem under confidentiality terms, [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "be32d9e6b39632892096",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "La argentina The Mobile-First Company levanta ronda de 12 millones de dólares y anuncia la creación de nuevas herramientas basadas en IA",
+    "url": "https://www.contxto.com/es/funding/la-argentina-the-mobile-first-company-levanta-ronda-de-12-millones-de-dolares-y-anuncia-la-creacion-de-nuevas-herramientas-basadas-en-ia/",
+    "published_at": "2025-11-05T17:54:59+00:00",
+    "summary": "La startup argentina The Mobile-First Company anunció el cierre de una ronda de inversión por 12 millones de dólares liderada por los fondos Base10 Partners y Lightspeed Venture Partners. La operación servirá como un incentivo para la creación de nuevas soluciones de optimización basadas en inteligencia artificial. La ronda contó con el respaldo de destacados [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "d51e6d172a904dd509a0",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Solfium raises $10 million Series A round to boost solar transition for Mexican SMEs",
+    "url": "https://www.contxto.com/en/funding/solfium-raises-10-million-series-a-round-to-boost-solar-transition-for-mexican-smes/",
+    "published_at": "2025-11-05T17:31:06+00:00",
+    "summary": "In a strategic move to accelerate the energy transition in Mexico&#8217;s corporate sector, technology-based startup Solfium today announced the initial closing of a US$7 million Series A funding round, as part of a total round intended to reach US$10 million. The round was led by impact funds Accion and ALIVE Ventures, with participation from Kamay [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "0516d1ffd78b91e269cc",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto ES",
+    "title": "Solfium levanta ronda serie A de $10 millones de dólares para impulsar la transición solar de las pymes mexicanas",
+    "url": "https://www.contxto.com/es/funding/solfium-levanta-ronda-serie-a-de-10-millones-de-dolares-transicion-solar-pymes-mexicanas/",
+    "published_at": "2025-11-05T17:31:06+00:00",
+    "summary": "En un movimiento estratégico que busca acelerar la transición energética en el sector empresarial de México, la startup de base tecnológica Solfium anunció hoy el cierre inicial de una ronda de financiación Serie A por 7 millones de dólares, como parte de una ronda total destinada a alcanzar los 10 millones de dólares. La ronda [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "a7698dab8deb62595bd5",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "iProUP Startups",
+    "title": "Startup argentina usa IA y drones para redefinir la lucha contra el cambio climático: levantó u$s1 millón",
+    "url": "https://www.iproup.com/startups/61576-argentinos-revolucionan-reforestacion-con-ia-y-drones-levantan-usd-1-millon",
+    "published_at": "2025-11-01T09:15:00+00:00",
+    "summary": "La compañía propone restaurar ecosistemas a gran escala gracias a la combinación de IA, drones y biotecnología. Las claves de la startup",
+    "categories": [
+      "Propia"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  }
+]
