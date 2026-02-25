@@ -1,7 +1,6 @@
 import json
 import os
 import re
-from collections import defaultdict
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -10,28 +9,31 @@ import requests
 # Optional offline translation (Argos)
 ARGOS_READY = False
 try:
-    from argostranslate import package, translate
+    from argostranslate import translate as argos_translate
     ARGOS_READY = True
 except Exception:
     ARGOS_READY = False
 
 ROOT = Path(__file__).resolve().parents[1]
-DATA_PATH = ROOT / "data" / "latam_digest.json"
+
+FUNDING_PATH = ROOT / "data" / "latam_funding.json"
+STARTUPS_PATH = ROOT / "data" / "latam_startups.json"
+
 SENT_STATE = ROOT / "data" / "sent_state.json"
 BANNER_PATH = ROOT / "assets" / "digest_banner.jpg"
 
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
-# 4 поста/день => окно ~24 часов
+# Для старта ставим 24ч (чтобы пост точно был). Потом можешь вернуть 6ч.
 WINDOW_HOURS = 24
 
-# Чтобы caption не превращался в простыню (лимит Telegram у caption ~1024)
+# Чтобы caption не был простынёй (лимит ~1024)
 TOP_FUNDING = 3
 TOP_STARTUPS = 3
 MAX_CAPTION_CHARS = 980
 
-# --- Sector classifier (simple + robust) ---
+# --- Sector classifier ---
 SECTOR_RULES = [
     ("edtech",    r"\b(education|learning|lms|course|school|university|edtech|обучен|школ|вуз|курс|учеб)\b"),
     ("medtech",   r"\b(health|medical|clinic|hospital|patient|medtech|biotech|pharma|diagnos|мед|клиник|пациент|диагност|фарма)\b"),
@@ -88,53 +90,47 @@ def sector_of(it) -> str:
     return "other"
 
 def guess_lang(it) -> str:
-    # минимальная эвристика: большинство LATAM-источников испанские/порт/… но у нас модели EN и ES
+    # У тебя есть EN и ES источники. Португальский будет как ES (не идеально, но ок).
     src = (it.get("source") or "").lower()
-    if "mexico news daily" in src:
+    if "contxto en" in src or "mexico news daily" in src:
         return "en"
-    if "wired" in src and "espa" not in src:
-        return "en"
-    # дефолт — испанский (для португальского будет хуже, но лучше чем ничего)
     return "es"
 
 def translate_ru(text: str, src_lang: str) -> str:
-    """
-    Off-line translation via Argos.
-    If Argos isn't available (models not installed), returns "".
-    """
     if not ARGOS_READY or not text:
         return ""
     try:
-        # Argos sometimes handles pivoting via intermediate language if needed
-        return translate.translate(text[:280], src_lang, "ru").strip()
+        # Argos uses ISO codes like "en", "es", "ru"
+        return argos_translate.translate(text[:280], src_lang, "ru").strip()
     except Exception:
         return ""
 
-def load_items():
-    items = json.loads(DATA_PATH.read_text(encoding="utf-8"))
+def load_json(path: Path):
+    if not path.exists():
+        return []
+    return json.loads(path.read_text(encoding="utf-8"))
+
+def in_window(it, cutoff: datetime) -> bool:
+    dt = it.get("published_at")
+    if not dt:
+        return True
+    try:
+        t = datetime.fromisoformat(dt.replace("Z", "+00:00"))
+        return t >= cutoff
+    except Exception:
+        return True
+
+def load_window_lists():
     now = datetime.now(timezone.utc)
     cutoff = now - timedelta(hours=WINDOW_HOURS)
 
-    out = []
-    for it in items:
-        detected = it.get("detected") or []
-        if not detected:
-            continue
+    funding = [it for it in load_json(FUNDING_PATH) if in_window(it, cutoff)]
+    startups = [it for it in load_json(STARTUPS_PATH) if in_window(it, cutoff)]
 
-        dt = it.get("published_at")
-        if dt:
-            try:
-                t = datetime.fromisoformat(dt.replace("Z", "+00:00"))
-                if t < cutoff:
-                    continue
-            except Exception:
-                pass
-
-        out.append(it)
-
-    # newest first (best effort)
-    out.sort(key=lambda x: x.get("published_at") or "", reverse=True)
-    return out
+    # newest first
+    funding.sort(key=lambda x: x.get("published_at") or "", reverse=True)
+    startups.sort(key=lambda x: x.get("published_at") or "", reverse=True)
+    return funding, startups
 
 def load_sent() -> set:
     if not SENT_STATE.exists():
@@ -153,63 +149,53 @@ def save_sent(sent_ids: set):
     }
     SENT_STATE.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
 
-def pick_items(items, sent):
-    fresh = [it for it in items if it.get("id") and it["id"] not in sent]
-    if not fresh:
-        return [], [], sent
+def pick_items(funding_items, startups_items, sent):
+    funding_fresh = [it for it in funding_items if it.get("id") and it["id"] not in sent]
+    startups_fresh = [it for it in startups_items if it.get("id") and it["id"] not in sent]
 
-    # enrich
-    for it in fresh:
+    for it in funding_fresh + startups_fresh:
         it["_sector"] = sector_of(it)
 
-    funding_all = [it for it in fresh if "funding" in (it.get("detected") or [])]
-    startups_all = [it for it in fresh if "startup_news" in (it.get("detected") or [])]
+    top_funding = funding_fresh[:TOP_FUNDING]
+    top_startups = startups_fresh[:TOP_STARTUPS]
 
-    funding_top = funding_all[:TOP_FUNDING]
-    startups_top = startups_all[:TOP_STARTUPS]
+    for it in top_funding + top_startups:
+        sent.add(it["id"])
 
-    # mark as sent
-    for it in funding_top + startups_top:
-        if it.get("id"):
-            sent.add(it["id"])
+    return top_funding, top_startups, sent
 
-    return funding_top, startups_top, sent
-
-def build_caption(funding_top, startups_top, all_items_window):
-    # BA time for header
+def build_caption(top_funding, top_startups, funding_window, startups_window):
+    # Buenos Aires time (UTC-3)
     now_ba = datetime.now(timezone.utc) - timedelta(hours=3)
     stamp = now_ba.strftime("%d %b · %H:%M BA")
 
-    # stats for header
-    funding_cnt = sum(1 for it in all_items_window if "funding" in (it.get("detected") or []))
-    startup_cnt = sum(1 for it in all_items_window if "startup_news" in (it.get("detected") or []))
+    funding_cnt = len(funding_window)
+    startup_cnt = len(startups_window)
 
     lines = []
     lines.append(f"🧭 <b>LATAM Tech Digest</b> · {stamp}")
     lines.append(f"💰 {funding_cnt} funding · 🚀 {startup_cnt} startup news")
     lines.append("")
 
-    if funding_top:
+    if top_funding:
         lines.append("<b>💰 Funding</b>")
-        for it in funding_top:
-            sec = SECTOR_LABEL.get(it.get("_sector","other"), "Other")
-            ru = translate_ru(it.get("title",""), guess_lang(it))
+        for it in top_funding:
+            sec = SECTOR_LABEL.get(it.get("_sector", "other"), "Other")
+            ru = translate_ru(it.get("title", ""), guess_lang(it))
             ru_line = f"\n<i>— {ru}</i>" if ru else ""
             lines.append(f"{flag(it.get('country'))} {it.get('title','')} ({sec}) {icon_link(it.get('url',''))}{ru_line}")
         lines.append("")
 
-    if startups_top:
+    if top_startups:
         lines.append("<b>🚀 Startup news</b>")
-        for it in startups_top:
-            sec = SECTOR_LABEL.get(it.get("_sector","other"), "Other")
-            ru = translate_ru(it.get("title",""), guess_lang(it))
+        for it in top_startups:
+            sec = SECTOR_LABEL.get(it.get("_sector", "other"), "Other")
+            ru = translate_ru(it.get("title", ""), guess_lang(it))
             ru_line = f"\n<i>— {ru}</i>" if ru else ""
             lines.append(f"{flag(it.get('country'))} {it.get('title','')} ({sec}) {icon_link(it.get('url',''))}{ru_line}")
         lines.append("")
 
     caption = "\n".join(lines).strip()
-
-    # Trim to fit caption limit safely
     if len(caption) > MAX_CAPTION_CHARS:
         caption = caption[:MAX_CAPTION_CHARS] + "\n…"
     return caption
@@ -231,18 +217,20 @@ def main():
     if not BANNER_PATH.exists():
         raise FileNotFoundError("Banner image not found: assets/digest_banner.jpg")
 
-    if not DATA_PATH.exists():
-        raise FileNotFoundError("Dataset not found: data/latam_digest.json")
+    if not FUNDING_PATH.exists() and not STARTUPS_PATH.exists():
+        raise FileNotFoundError("Funding/startups datasets not found in data/")
 
-    items_window = load_items()
+    funding_window, startups_window = load_window_lists()
     sent = load_sent()
 
-    funding_top, startups_top, sent = pick_items(items_window, sent)
-    if not funding_top and not startups_top:
+    top_funding, top_startups, sent = pick_items(funding_window, startups_window, sent)
+
+    # чтобы не засорять канал "пустыми" постами — просто молчим
+    if not top_funding and not top_startups:
         print("No new relevant items in this window (or already sent).")
         return
 
-    caption = build_caption(funding_top, startups_top, items_window)
+    caption = build_caption(top_funding, top_startups, funding_window, startups_window)
     send_photo(caption)
     save_sent(sent)
 
