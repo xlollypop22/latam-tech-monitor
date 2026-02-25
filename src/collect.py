@@ -5,7 +5,7 @@ from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
 from hashlib import sha256
 from pathlib import Path
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Tuple
 
 import feedparser
 import requests
@@ -14,6 +14,8 @@ from dateutil import parser as dtparser
 ROOT = Path(__file__).resolve().parents[1]
 FEEDS_PATH = ROOT / "feeds" / "feeds_latam.json"
 DATA_DIR = ROOT / "data"
+
+# IMPORTANT: this is collector "seen" state (not telegram sent_state)
 STATE_PATH = DATA_DIR / "state.json"
 
 DIGEST_PATH = DATA_DIR / "latam_digest.json"
@@ -61,8 +63,15 @@ def load_json(path: Path, default: Any) -> Any:
     return json.loads(path.read_text(encoding="utf-8"))
 
 
-def save_json(path: Path, obj: Any) -> None:
+def _write_json(path: Path, obj: Any) -> None:
     path.write_text(json.dumps(obj, ensure_ascii=False, indent=2), encoding="utf-8")
+
+
+def save_json_safe(path: Path, obj: Any) -> None:
+    """Atomic-ish save: write to temp then replace."""
+    tmp = path.with_suffix(path.suffix + ".tmp")
+    _write_json(tmp, obj)
+    tmp.replace(path)
 
 
 def norm_url(url: str) -> str:
@@ -111,7 +120,6 @@ def summarize(entry: Dict[str, Any]) -> Optional[str]:
     if not s:
         return None
     s = re.sub(r"\s+", " ", s).strip()
-    # keep short for BI
     return s[:500] if len(s) > 500 else s
 
 
@@ -120,10 +128,19 @@ def fetch_feed(url: str, timeout: int = 25) -> feedparser.FeedParserDict:
         "User-Agent": "latam-tech-monitor/1.0 (+https://github.com/)",
         "Accept": "application/rss+xml, application/xml;q=0.9, */*;q=0.8",
     }
-    # feedparser can fetch itself, but requests gives better control
     r = requests.get(url, headers=headers, timeout=timeout)
     r.raise_for_status()
     return feedparser.parse(r.content)
+
+
+def sort_items_newest_first(items: List[Item]) -> List[Item]:
+    def sort_key(x: Item) -> Tuple[int, str]:
+        # unknown dates go last
+        if not x.published_at:
+            return (1, "0000-00-00T00:00:00+00:00")
+        return (0, x.published_at)
+
+    return sorted(items, key=sort_key, reverse=True)
 
 
 def main() -> None:
@@ -134,11 +151,17 @@ def main() -> None:
     if not sources:
         raise RuntimeError("No sources in feeds_latam.json")
 
+    # Load state
     state = load_json(STATE_PATH, {"seen_ids": [], "seen_urls": []})
     seen_ids = set(state.get("seen_ids", []))
     seen_urls = set(state.get("seen_urls", []))
 
     all_items: List[Item] = []
+    new_seen_ids = set(seen_ids)
+    new_seen_urls = set(seen_urls)
+
+    fetched_ok = 0
+    fetched_fail = 0
 
     for src in sources:
         if src.get("type") != "rss":
@@ -151,12 +174,13 @@ def main() -> None:
 
         try:
             feed = fetch_feed(feed_url)
+            fetched_ok += 1
         except Exception as e:
-            # Keep going if a source fails
+            fetched_fail += 1
             print(f"[WARN] failed to fetch {source_name}: {e}")
             continue
 
-        for entry in feed.entries[:60]:  # cap per feed
+        for entry in feed.entries[:60]:
             title = (entry.get("title") or "").strip()
             link = norm_url(entry.get("link") or "")
             if not title or not link:
@@ -169,7 +193,7 @@ def main() -> None:
             published_at = parse_datetime(entry)
             summ = summarize(entry)
 
-            cats = []
+            cats: List[str] = []
             for c in entry.get("tags", []) or []:
                 t = (c.get("term") or "").strip()
                 if t:
@@ -192,34 +216,44 @@ def main() -> None:
             )
             all_items.append(it)
 
-            seen_ids.add(item_id)
-            seen_urls.add(link)
+            # IMPORTANT: update seen only if we actually found an item
+            new_seen_ids.add(item_id)
+            new_seen_urls.add(link)
 
-    # Sort newest first (unknown dates go last)
-    def sort_key(x: Item):
-        if not x.published_at:
-            return (1, "0000")
-        return (0, x.published_at)
-
-    all_items.sort(key=sort_key, reverse=True)
+    all_items = sort_items_newest_first(all_items)
 
     digest = [asdict(x) for x in all_items]
     funding = [asdict(x) for x in all_items if "funding" in x.detected]
     startups = [asdict(x) for x in all_items if "startup_news" in x.detected]
 
-    save_json(DIGEST_PATH, digest)
-    save_json(FUNDING_PATH, funding)
-    save_json(STARTUPS_PATH, startups)
+    # =========================
+    # CRITICAL: Do NOT overwrite datasets with empty results
+    # =========================
+    if len(digest) == 0:
+        print(
+            f"[WARN] Collected 0 items (feeds ok={fetched_ok}, fail={fetched_fail}). "
+            "Keeping previous data/*.json unchanged."
+        )
+        # Do not update state either (prevents "eating" items)
+        return
 
-    # Keep state bounded
+    # Save datasets
+    save_json_safe(DIGEST_PATH, digest)
+    save_json_safe(FUNDING_PATH, funding)
+    save_json_safe(STARTUPS_PATH, startups)
+
+    # Keep state bounded (only after successful collect)
     state_out = {
         "updated_at": datetime.now(tz=timezone.utc).isoformat(),
-        "seen_ids": list(seen_ids)[-20000:],
-        "seen_urls": list(seen_urls)[-20000:],
+        "seen_ids": list(new_seen_ids)[-20000:],
+        "seen_urls": list(new_seen_urls)[-20000:],
     }
-    save_json(STATE_PATH, state_out)
+    save_json_safe(STATE_PATH, state_out)
 
-    print(f"Collected: digest={len(digest)}, funding={len(funding)}, startups={len(startups)}")
+    print(
+        f"Collected: digest={len(digest)}, funding={len(funding)}, startups={len(startups)} "
+        f"(feeds ok={fetched_ok}, fail={fetched_fail})"
+    )
 
 
 if __name__ == "__main__":
