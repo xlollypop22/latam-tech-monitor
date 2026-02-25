@@ -1,128 +1,61 @@
 {
   "sources": [
+
     {
-      "country": "LATAM",
-      "bucket": "LATAM (regional)",
-      "source": "Contxto EN",
       "type": "rss",
-      "url": "https://www.contxto.com/en/feed/"
-    },
-    {
-      "country": "LATAM",
-      "bucket": "LATAM (regional)",
-      "source": "Contxto ES",
-      "type": "rss",
-      "url": "https://www.contxto.com/es/feed/"
-    },
-    {
       "country": "LATAM",
       "bucket": "LATAM (regional)",
       "source": "LatamList",
-      "type": "rss",
       "url": "https://latamlist.com/feed/"
     },
+
     {
+      "type": "rss",
       "country": "LATAM",
       "bucket": "LATAM (regional)",
-      "source": "LatamList Startup News",
-      "type": "rss",
-      "url": "https://latamlist.com/category/startup-news/feed/"
-    },
-    {
-      "country": "LATAM",
-      "bucket": "LATAM (regional)",
-      "source": "LatamList Funding",
-      "type": "rss",
-      "url": "https://latamlist.com/category/startup-news/funding/feed/"
+      "source": "Contxto EN",
+      "url": "https://www.contxto.com/en/feed/"
     },
 
     {
-      "country": "AR",
-      "bucket": "🇦🇷 Argentina",
-      "source": "Ámbito Tecnología",
       "type": "rss",
-      "url": "https://www.ambito.com/rss/pages/tecnologia.xml"
-    },
-    {
-      "country": "AR",
-      "bucket": "🇦🇷 Argentina",
-      "source": "Ámbito Negocios",
-      "type": "rss",
-      "url": "https://www.ambito.com/rss/pages/negocios.xml"
-    },
-    {
-      "country": "AR",
-      "bucket": "🇦🇷 Argentina",
-      "source": "iProUP Startups",
-      "type": "rss",
-      "url": "https://www.iproup.com/rss/startups"
+      "country": "LATAM",
+      "bucket": "LATAM (regional)",
+      "source": "Crunchbase News",
+      "url": "https://news.crunchbase.com/feed/"
     },
 
     {
-      "country": "BR",
+      "type": "rss",
+      "country": "Brazil",
       "bucket": "🇧🇷 Brazil",
-      "source": "Contxto tag Brasil (ES)",
-      "type": "rss",
-      "url": "https://www.contxto.com/es/tag/brasil-es/feed"
-    },
-    {
-      "country": "BR",
-      "bucket": "🇧🇷 Brazil",
-      "source": "Contxto tag Brazil (EN)",
-      "type": "rss",
-      "url": "https://www.contxto.com/en/tag/brazil-en/feed"
+      "source": "Startupi",
+      "url": "https://startupi.com.br/feed/"
     },
 
     {
-      "country": "MX",
+      "type": "rss",
+      "country": "Mexico",
       "bucket": "🇲🇽 Mexico",
-      "source": "Contxto tag México",
-      "type": "rss",
-      "url": "https://www.contxto.com/es/tag/mexico-es/feed"
-    },
-    {
-      "country": "MX",
-      "bucket": "🇲🇽 Mexico",
-      "source": "Mexico News Daily",
-      "type": "rss",
-      "url": "https://mexiconewsdaily.com/feed/"
-    },
-    {
-      "country": "LATAM",
-      "bucket": "LATAM (regional)",
-      "source": "WIRED en Español (top)",
-      "type": "rss",
-      "url": "https://es.wired.com/feed/rss"
-    },
-    {
-      "country": "LATAM",
-      "bucket": "LATAM (regional)",
-      "source": "WIRED en Español (negocios)",
-      "type": "rss",
-      "url": "https://es.wired.com/feed/negocios/rss"
+      "source": "Entrepreneur MX",
+      "url": "https://www.entrepreneur.com/es/feed"
     },
 
     {
-      "country": "CO",
-      "bucket": "🇨🇴 Colombia",
-      "source": "Contxto tag Colombia",
       "type": "rss",
-      "url": "https://www.contxto.com/es/tag/colombia-es/feed"
-    },
-    {
-      "country": "CL",
-      "bucket": "🇨🇱 Chile",
-      "source": "Contxto tag Chile",
-      "type": "rss",
-      "url": "https://www.contxto.com/es/tag/chile-es/feed"
+      "country": "Argentina",
+      "bucket": "🇦🇷 Argentina",
+      "source": "iProUP",
+      "url": "https://www.iproup.com/rss"
     },
 
     {
-      "country": "PE",
-      "bucket": "🇵🇪 Peru",
-      "source": "Gestión Tecnología",
       "type": "rss",
-      "url": "https://gestion.pe/arc/outboundfeeds/rss/category/tecnologia/?outputType=xml"
+      "country": "LATAM",
+      "bucket": "LATAM VC",
+      "source": "TechCrunch Latin America",
+      "url": "https://techcrunch.com/tag/latin-america/feed/"
     }
+
   ]
 }
