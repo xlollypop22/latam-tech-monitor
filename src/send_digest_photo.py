@@ -23,8 +23,8 @@ BANNER_PATH = ROOT / "assets" / "digest_banner.jpg"
 TOKEN = os.environ["TELEGRAM_BOT_TOKEN"]
 CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
 
-# 4 поста/день => окно ~6 часов
-WINDOW_HOURS = 6
+# 4 поста/день => окно ~24 часов
+WINDOW_HOURS = 24
 
 # Чтобы caption не превращался в простыню (лимит Telegram у caption ~1024)
 TOP_FUNDING = 3
