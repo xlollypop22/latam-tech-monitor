@@ -30,33 +30,27 @@ jobs:
 
       # Install Argos models for EN->RU and ES->RU.
       # Model hosting endpoints can change; these are from Argos package distribution (r2.dev is commonly used).
-      - name: Install Argos models (EN->RU, ES->RU)
+      - name: Install Argos models (EN->RU, ES->RU) via official index
         run: |
           python - << 'PY'
-          import os, tempfile, urllib.request
           from argostranslate import package
 
-          MODELS = [
-            # EN -> RU (example widely referenced distribution endpoint)
-            "https://pub-dbae765fb25a4114aac1c88b90e94178.r2.dev/v1/translate-en_ru-1_7.argosmodel",
-            # ES -> RU (if this exact version isn't present, change to the latest from Argos package index)
-            "https://pub-dbae765fb25a4114aac1c88b90e94178.r2.dev/v1/translate-es_ru-1_0.argosmodel",
-          ]
+          package.update_package_index()
+          available = package.get_available_packages()
 
-          def install(url: str):
-            fd, path = tempfile.mkstemp(suffix=".argosmodel")
-            os.close(fd)
-            urllib.request.urlretrieve(url, path)
-            package.install_from_path(path)
-            print("Installed:", url)
+          def install_pair(frm, to):
+            pkgs = [p for p in available if p.from_code == frm and p.to_code == to]
+            if not pkgs:
+              print(f"WARN: no package for {frm}->{to}")
+              return
+            # берем самый свежий (обычно последний)
+            pkg = pkgs[-1]
+            print(f"Installing {frm}->{to}: {pkg.package_version}")
+            package.install_from_path(pkg.download())
 
-          for u in MODELS:
-            try:
-              install(u)
-            except Exception as e:
-              print("WARN: failed to install", u, "=>", e)
-
-          print("Done.")
+          install_pair("en", "ru")
+          install_pair("es", "ru")
+          print("Argos installation done")
           PY
 
       - name: Collect feeds (update data/*.json)
