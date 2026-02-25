@@ -1,0 +1,83 @@
+name: LATAM Digest to Telegram (4x/day)
+
+on:
+  workflow_dispatch:
+  schedule:
+    # GitHub Actions uses UTC.
+    # Buenos Aires = UTC-3
+    # BA: 10:00, 13:00, 17:00, 21:00  => UTC: 13:00, 16:00, 20:00, 00:00
+    - cron: "0 0,13,16,20 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests feedparser python-dateutil argostranslate
+
+      # Install Argos models for EN->RU and ES->RU.
+      # Model hosting endpoints can change; these are from Argos package distribution (r2.dev is commonly used).
+      - name: Install Argos models (EN->RU, ES->RU)
+        run: |
+          python - << 'PY'
+          import os, tempfile, urllib.request
+          from argostranslate import package
+
+          MODELS = [
+            # EN -> RU (example widely referenced distribution endpoint)
+            "https://pub-dbae765fb25a4114aac1c88b90e94178.r2.dev/v1/translate-en_ru-1_7.argosmodel",
+            # ES -> RU (if this exact version isn't present, change to the latest from Argos package index)
+            "https://pub-dbae765fb25a4114aac1c88b90e94178.r2.dev/v1/translate-es_ru-1_0.argosmodel",
+          ]
+
+          def install(url: str):
+            fd, path = tempfile.mkstemp(suffix=".argosmodel")
+            os.close(fd)
+            urllib.request.urlretrieve(url, path)
+            package.install_from_path(path)
+            print("Installed:", url)
+
+          for u in MODELS:
+            try:
+              install(u)
+            except Exception as e:
+              print("WARN: failed to install", u, "=>", e)
+
+          print("Done.")
+          PY
+
+      - name: Collect feeds (update data/*.json)
+        run: |
+          python src/collect.py
+
+      - name: Send digest to Telegram
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          python src/send_digest_photo.py
+
+      - name: Commit datasets + sent state (if changed)
+        run: |
+          git config user.name "latam-tech-monitor-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/*.json data/sent_state.json || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "Update datasets and sent state"
+          git push
