@@ -1,0 +1,31 @@
+name: LATAM Startup News
+
+on:
+  schedule:
+    # Каждый час с 8 до 23 МСК (5–20 UTC)
+    - cron: "0 5-20 * * *"
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: |
+          pip install -r requirements.txt
+
+      - name: Collect
+        id: collect
+        run: |
+          python src/collect.py > news.json || echo "no news"
+
+      - name: Post
+        if: success()
+        run: |
+          cat news.json | python src/post.py
