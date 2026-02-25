@@ -10,25 +10,56 @@ SYSTEM = (
     "Без воды. Без заглушек."
 )
 
-def _groq_chat(api_key: str, user_prompt: str, model: str = "llama-3.1-70b-versatile") -> str:
-    url = "https://api.groq.com/openai/v1/chat/completions"
+GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
+
+# Пробуем модели по очереди (самая совместимая — 8b instant)
+MODEL_CANDIDATES = [
+    "llama-3.1-8b-instant",
+    "llama-3.1-70b-versatile",
+    "llama3-8b-8192",
+    "llama3-70b-8192",
+]
+
+def _groq_chat(api_key: str, user_prompt: str) -> str:
+    api_key = (api_key or "").strip()
+    if not api_key:
+        raise RuntimeError("GROQ_API_KEY is empty")
+
     headers = {
         "Authorization": f"Bearer {api_key}",
         "Content-Type": "application/json",
     }
-    payload = {
-        "model": model,
-        "temperature": 0.2,
-        "max_tokens": 600,
-        "messages": [
-            {"role": "system", "content": SYSTEM},
-            {"role": "user", "content": user_prompt},
-        ],
-    }
-    r = requests.post(url, headers=headers, json=payload, timeout=60)
-    r.raise_for_status()
-    data = r.json()
-    return (data["choices"][0]["message"]["content"] or "").strip()
+
+    last_err = None
+
+    for model in MODEL_CANDIDATES:
+        payload = {
+            "model": model,
+            "temperature": 0.2,
+            "max_tokens": 650,
+            "messages": [
+                {"role": "system", "content": SYSTEM},
+                {"role": "user", "content": user_prompt},
+            ],
+        }
+
+        try:
+            r = requests.post(GROQ_URL, headers=headers, json=payload, timeout=60)
+
+            # Если ошибка — покажем тело, но попробуем следующую модель
+            if r.status_code != 200:
+                last_err = f"[Groq {r.status_code}] model={model} body={r.text[:1200]}"
+                continue
+
+            data = r.json()
+            return (data["choices"][0]["message"]["content"] or "").strip()
+
+        except Exception as e:
+            last_err = f"[Groq EXC] model={model} err={repr(e)}"
+            continue
+
+    raise RuntimeError(f"Groq request failed. {last_err}")
+
 
 def enrich_with_groq(item: Dict[str, Any], groq_api_key: str) -> Dict[str, Any]:
     title = item.get("title", "")
@@ -61,26 +92,48 @@ def enrich_with_groq(item: Dict[str, Any], groq_api_key: str) -> Dict[str, Any]:
 - country: ISO2 если явная страна, иначе LATAM.
 """
 
-    content = _groq_chat(groq_api_key, prompt)
-
-    # Парсим JSON; если модель вернула мусор — fallback на эвристики
-    try:
-        data = json.loads(content)
-    except Exception:
-        blob = f"{title} {summary}"
-        data = {
-            "ru_summary": title.strip(),
-            "ru_insight": "Это может повлиять на конкуренцию, инвестиционную активность и темпы роста рынка в регионе.",
-            "industry_tags": detect_sectors(blob),
-            "event_tags": detect_events(blob),
-            "country": detect_country(blob, hint=hint),
-        }
-
     blob = f"{title} {summary}"
-    item["ru_summary"] = (data.get("ru_summary") or title).strip()
-    item["ru_insight"] = (data.get("ru_insight") or "").strip() or "Контекст: возможное влияние на рынок и масштабирование в регионе."
-    item["industry_tags"] = (data.get("industry_tags") or detect_sectors(blob))[:3]
-    item["event_tags"] = (data.get("event_tags") or detect_events(blob))[:2]
-    item["country"] = (data.get("country") or detect_country(blob, hint=hint)).upper()
+
+    try:
+        content = _groq_chat(groq_api_key, prompt)
+        try:
+            data = json.loads(content)
+        except Exception:
+            # иногда модель добавляет текст вокруг JSON — попробуем вытащить JSON блок
+            start = content.find("{")
+            end = content.rfind("}")
+            if start != -1 and end != -1 and end > start:
+                data = json.loads(content[start:end+1])
+            else:
+                raise
+
+        item["ru_summary"] = (data.get("ru_summary") or title).strip()
+        item["ru_insight"] = (data.get("ru_insight") or "").strip()
+        item["industry_tags"] = (data.get("industry_tags") or [])[:3]
+        item["event_tags"] = (data.get("event_tags") or [])[:2]
+        item["country"] = (data.get("country") or "").upper()
+
+    except Exception as e:
+        # 🔥 ВАЖНО: НЕ ВАЛИМ WORKFLOW.
+        # Просто делаем fallback без Groq.
+        print(f"[WARN] Groq disabled for this run: {e}")
+
+        item["ru_summary"] = title.strip() if title else "Новость из LATAM"
+        item["ru_insight"] = "Коротко: событие может повлиять на конкуренцию, инвестиции и скорость масштабирования в регионе."
+        item["industry_tags"] = detect_sectors(blob)
+        item["event_tags"] = detect_events(blob)
+        item["country"] = detect_country(blob, hint=hint)
+
+    # backstops
+    if not item.get("industry_tags"):
+        item["industry_tags"] = detect_sectors(blob)
+    if not item.get("event_tags"):
+        item["event_tags"] = detect_events(blob)
+    if not item.get("country"):
+        item["country"] = detect_country(blob, hint=hint)
+
+    item["country"] = (item.get("country") or "LATAM").upper()
+    item["ru_summary"] = (item.get("ru_summary") or title).strip()
+    item["ru_insight"] = (item.get("ru_insight") or "").strip()
 
     return item
