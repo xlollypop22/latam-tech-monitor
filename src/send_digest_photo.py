@@ -211,7 +211,33 @@ def send_photo(caption: str):
             "disable_web_page_preview": True
         }
         r = requests.post(url, data=data, files=files, timeout=60)
+
+    if r.status_code >= 400:
+        # Печатаем точный ответ Telegram, чтобы понять причину
+        print("Telegram sendPhoto failed:", r.status_code, r.text)
+
+        # Fallback: отправляем текстом без HTML
+        send_message_fallback(strip_html(caption))
+        return
+
+    print("Telegram sendPhoto OK:", r.status_code)
+
+def strip_html(s: str) -> str:
+    # грубо убираем HTML теги, чтобы точно прошло
+    return re.sub(r"<[^>]+>", "", s)
+
+def send_message_fallback(text: str):
+    url = f"https://api.telegram.org/bot{TOKEN}/sendMessage"
+    payload = {
+        "chat_id": CHAT_ID,
+        "text": text[:3500],
+        "disable_web_page_preview": True
+    }
+    r = requests.post(url, json=payload, timeout=60)
+    if r.status_code >= 400:
+        print("Telegram sendMessage failed:", r.status_code, r.text)
         r.raise_for_status()
+    print("Telegram sendMessage OK:", r.status_code)
 
 def main():
     if not BANNER_PATH.exists():
