@@ -1,1 +1,374 @@
-[]
+[
+  {
+    "id": "cc4ccd216da22c406020",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "Fintech Giant Stripe’s Valuation Soars to $159B In Latest Secondary Stock Sale",
+    "url": "https://news.crunchbase.com/fintech/unicorn-stripe-secondary-sale-valuation/",
+    "published_at": "2026-02-24T17:37:58+00:00",
+    "summary": "Payments infrastructure giant Stripe announced Tuesday that it has inked deals with investors to provide liquidity to current and former employees through a tender offer at a $159 billion valuation.",
+    "categories": [
+      "Fintech",
+      "Liquidity",
+      "fintech",
+      "liquidity",
+      "secondary market",
+      "unicorn"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "ca0ab65bfc01b7648554",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "Beyond Secondaries: Turbine Wants To Unlock Liquidity For Venture LPs",
+    "url": "https://news.crunchbase.com/venture/beyond-secondaries-turbine-unlock-liquidity-lps-hurst/",
+    "published_at": "2026-02-24T12:00:34+00:00",
+    "summary": "The founders of Turbine's goal is to provide venture capital and private equity firms with early liquidity options for their investors. To learn more about the firm's business model and efforts, we posed some questions to co-founder and CEO Mike Hurst. Here's what we found out.",
+    "categories": [
+      "Venture",
+      "liquidity",
+      "space tech",
+      "unicorn",
+      "venture"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "b6d0476b5459f878332b",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "5 Interesting Startup Deals You May Have Missed: Plant-Based Clothing Dyes, A Shoebox-Picking Robot, And Power Generated On The Moon",
+    "url": "https://news.crunchbase.com/venture/interesting-startup-deals-ai-robotics-energy-generation/",
+    "published_at": "2026-02-23T12:00:35+00:00",
+    "summary": "A host of interesting, under-the-radar recently funded startups caught our attention in the past month: one that’s developing nuclear-waste generated electricity on the moon, and another that aims to use AI to extract business intelligence from enterprise contracts. Let’s take a closer look.",
+    "categories": [
+      "Artificial intelligence",
+      "Clean tech and energy",
+      "Defense tech",
+      "M&A",
+      "Robotics",
+      "Startups",
+      "Venture",
+      "AI",
+      "defense tech",
+      "Legal tech",
+      "robotics",
+      "startups"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "52d5bfec8168410651d0",
+    "country": "Mexico",
+    "bucket": "🇲🇽 Mexico",
+    "source": "Entrepreneur MX",
+    "title": "Crédito para micronegocios: la apuesta de una startup latinoamericana contra la informalidad",
+    "url": "https://spanish.entrepreneur.com/iniciar-un-negocio/finanzas/credito-para-micronegocios-la-apuesta-de-una-startup-latinoamericana-contra-la-informalidad",
+    "published_at": "2026-02-20T20:36:00+00:00",
+    "summary": "<p>En la lucha contra la informalidad, estas inversiones impulsan la democratización del acceso al crédito.</p> <p>The post <a href=\"https://spanish.entrepreneur.com/iniciar-un-negocio/finanzas/credito-para-micronegocios-la-apuesta-de-una-startup-latinoamericana-contra-la-informalidad\">Crédito para micronegocios: la apuesta de una startup latinoamericana contra la informalidad</a> appeared first on <a href=\"https://spanish.entrepreneur.com\">Entrepreneur en Espanol</a>.</p>",
+    "categories": [
+      "Finanzas",
+      "Iniciar un Negocio",
+      "América Latina",
+      "Credito",
+      "Créditos",
+      "FinTech",
+      "Latinoamérica",
+      "MiPymes",
+      "Pymes",
+      "Startups fintech"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "9a43cb674ea96c821842",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "The Week’s 10 Biggest Funding Rounds: World Labs Leads Another AI-Heavy Lineup",
+    "url": "https://news.crunchbase.com/venture/biggest-funding-rounds-cloud-energy-ai-world-labs/",
+    "published_at": "2026-02-20T19:16:37+00:00",
+    "summary": "This week’s largest U.S. funding rounds once again featured an AI-heavy cohort, along with sizable financings around fintech and energy tech. By far the largest deal was a $1 billion financing for World Labs, developer of AI models that interact with the 3D world.",
+    "categories": [
+      "Artificial intelligence",
+      "Clean tech and energy",
+      "Cloud computing",
+      "Fintech",
+      "Startups",
+      "Venture",
+      "AI",
+      "clean energy",
+      "cloud",
+      "energy",
+      "fintech",
+      "unicorn"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "a4c7d477044a5a1da8c1",
+    "country": "Brazil",
+    "bucket": "🇧🇷 Brazil",
+    "source": "Startupi",
+    "title": "Startup de automação fiscal cresce 143% e se prepara para surfar a onda da reforma tributária e crescimento do e-commerce",
+    "url": "https://startupi.com.br/startup-de-automacao-fiscal-cresce-143/",
+    "published_at": "2026-02-20T15:30:49+00:00",
+    "summary": "<p><a href=\"https://startupi.com.br\" rel=\"nofollow\">Startupi</a><br /> <img src=\"https://startupi.com.br/wp-content/uploads/2026/02/spedy-automacao-fiscal-2.jpeg\" style=\"display: block; margin: 1em auto;\" /><br /> <a href=\"https://startupi.com.br/startup-de-automacao-fiscal-cresce-143/\" rel=\"nofollow\">Startup de automação fiscal cresce 143% e se prepara para surfar a onda da reforma tributária e crescimento do e-commerce</a></p> <p>A reforma tributária brasileira criou um problema para milhares ",
+    "categories": [
+      "Matérias",
+      "Destaques"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "7663dc950b0c1930d7f3",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "Exclusive: Ownwell Lands $30M To Help Homeowners Lower Their Property Tax Bills",
+    "url": "https://news.crunchbase.com/venture/ownwell-raise-lower-homeowner-property-tax/",
+    "published_at": "2026-02-19T15:00:32+00:00",
+    "summary": "Ownwell, an AI-powered startup that appeals property taxes on behalf of homeowners, has secured $50 million in financing, including $30 million in equity and $20 million in debt, the company tells Crunchbase News exclusively.",
+    "categories": [
+      "Artificial intelligence",
+      "Politics and regulation",
+      "Real estate & property tech",
+      "Startups",
+      "Venture",
+      "Real Estate",
+      "startups",
+      "venture"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "858f3c220829ff2cd7cf",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "Crunchbase Data: The AI Boom Has Drastically Changed Who’s Funding The Hottest Companies In 2025 Vs. 2021",
+    "url": "https://news.crunchbase.com/venture/data-2025-vs-2021-funding-hottest-companies-ai/",
+    "published_at": "2026-02-19T12:00:20+00:00",
+    "summary": "The investors backing the hottest companies in today's highly competitive venture capital market have changed drastically since the 2021 funding peak, Crunchbase data shows. Here's more on what our analysis indicates.",
+    "categories": [
+      "Artificial intelligence",
+      "Startups",
+      "Venture",
+      "startups",
+      "unicorn",
+      "venture funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "4fc0b28eafc13276665f",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "The Crunchbase Tech Layoffs Tracker",
+    "url": "https://news.crunchbase.com/startups/tech-layoffs/",
+    "published_at": "2026-02-18T18:53:30+00:00",
+    "summary": "Over 127,000 workers at U.S.-based tech companies were laid off in mass job cuts in 2025, per a Crunchbase News tally, and the layoffs have continued into 2026. See the latest companies to cut roles.",
+    "categories": [
+      "Economy",
+      "Job market",
+      "Layoffs",
+      "Public Markets",
+      "Startups",
+      "unicorn"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "4e045a8272336ee3a942",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Crunchbase News",
+    "title": "Digital Savings Startup Vestwell Lands $385M, Doubles Valuation",
+    "url": "https://news.crunchbase.com/fintech/digital-savings-startup-vestwell-seriese-doubles-valuation/",
+    "published_at": "2026-02-18T13:00:17+00:00",
+    "summary": "New York-based Vestwell, a digital savings platform, has raised $385 million in a Series E funding round co-led by Blue Owl Capital and Sixth Street Growth.",
+    "categories": [
+      "Enterprise",
+      "Fintech",
+      "Startups",
+      "Venture",
+      "enterprise",
+      "fintech",
+      "unicorn"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "85bf02b7beffb1aa241b",
+    "country": "LATAM",
+    "bucket": "LATAM VC",
+    "source": "TechCrunch Latin America",
+    "title": "Here are Latin America’s biggest startups based on valuation",
+    "url": "https://techcrunch.com/2025/05/05/here-are-latin-americas-biggest-startups-based-on-valuation/",
+    "published_at": "2025-05-05T20:32:16+00:00",
+    "summary": "Not so long ago, the idea of public tech companies emerging from Latin America seemed far-fetched, and Mercado Libre once appeared as rare and mythical as a true unicorn. Today, however, the region is home to several startups that have reached billion-dollar valuations. Some of these startups, propelled into the spotlight by cross-border expansion, are [&#8230;]",
+    "categories": [
+      "Startups",
+      "latin america",
+      "unicorns",
+      "evergreens"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "93675abd0f840534660e",
+    "country": "LATAM",
+    "bucket": "LATAM VC",
+    "source": "TechCrunch Latin America",
+    "title": "Fluent Ventures backs replicated startup models in emerging markets",
+    "url": "https://techcrunch.com/2025/04/23/fluent-ventures-backs-replicated-startup-models-in-emerging-markets/",
+    "published_at": "2025-04-23T15:15:15+00:00",
+    "summary": "A new venture firm aims to prove that the most successful startup ideas don’t have to be born or scaled in Silicon Valley. Fluent Ventures, a global early-stage fund, is backing founders replicating proven business models from Western markets in fintech, digital health, and commerce across emerging markets. The more cynical might describe this as [&#8230;]",
+    "categories": [
+      "Venture",
+      "emerging markets",
+      "Southeast Asia",
+      "latin america",
+      "MENA",
+      "Fluent Ventures"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "b336364e134afda3bcee",
+    "country": "LATAM",
+    "bucket": "LATAM VC",
+    "source": "TechCrunch Latin America",
+    "title": "Stablecoins are finding product-market fit in emerging markets",
+    "url": "https://techcrunch.com/2025/01/31/stablecoins-are-finding-product-market-fit-in-emerging-markets/",
+    "published_at": "2025-01-31T19:31:00+00:00",
+    "summary": "Five years ago, SpaceX launched Starlink, which has since grown into its biggest revenue driver, expanding to more than 100 countries. But as Starlink scaled, it faced a major hurdle: accepting payments in developing markets, where traditional banking infrastructure is unreliable, slow, and prone to blocking transactions. Many local banks across Africa, Latin America, and [&#8230;]",
+    "categories": [
+      "Crypto",
+      "Africa",
+      "Conduit",
+      "emerging markets",
+      "latin america",
+      "Rise",
+      "stablecoins",
+      "Caliza",
+      "juicyway",
+      "cedar money",
+      "cashnote"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "27eb5b334090119a7d3f",
+    "country": "LATAM",
+    "bucket": "LATAM VC",
+    "source": "TechCrunch Latin America",
+    "title": "Y Combinator’s latest cohort had only one LatAm startup in large part because of AI",
+    "url": "https://techcrunch.com/2024/04/10/y-combinator-latam-ai/",
+    "published_at": "2024-04-10T16:03:49+00:00",
+    "summary": "Brazilian startup Salvy, a mobile carrier for businesses, was the only company based in Latin America in Y Combinator's latest batch, the accelerator confirmed to TechCrunch.",
+    "categories": [
+      "Startups",
+      "Venture",
+      "Y Combinator",
+      "Y Combinator Winter 2024 batch",
+      "Abstra",
+      "Latitud",
+      "latin america"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "2f6826f2a80916e946f0",
+    "country": "LATAM",
+    "bucket": "LATAM VC",
+    "source": "TechCrunch Latin America",
+    "title": "Deco.cx grabs $2.2M to bring simplicity back to brand website creation",
+    "url": "https://techcrunch.com/2024/01/09/deco-cx-2-2m-brand-website-e-commerce/",
+    "published_at": "2024-01-09T11:00:26+00:00",
+    "summary": "The Brazil-based startup is creating tools for developers of growing e-commerce brands to create high-performance digital experiences.",
+    "categories": [
+      "Startups",
+      "Venture",
+      "Commerce",
+      "Brazil",
+      "e-commerce",
+      "latin america",
+      "MAYA Capital",
+      "Deco.cx",
+      "Guilherme Rodrigues"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "4b1cd73e6077072909a6",
+    "country": "LATAM",
+    "bucket": "LATAM VC",
+    "source": "TechCrunch Latin America",
+    "title": "Zubale bags new capital for software to help retailers scale e-commerce in Latin America",
+    "url": "https://techcrunch.com/2023/11/30/zubale-software-retailers-e-commerce-latin-america/",
+    "published_at": "2023-11-30T12:00:10+00:00",
+    "summary": "The new investment will be deployed into growing Zubale's three e-commerce productivity offerings, continued product development and strategies to consolidate its presence in Mexico and Brazil.",
+    "categories": [
+      "Commerce",
+      "Venture",
+      "Startups",
+      "e-commerce",
+      "Sebastian Monroy",
+      "Zubale",
+      "latin america",
+      "QED Investors"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  }
+]
