@@ -1,30 +1,331 @@
 [
   {
-    "id": "d93c01801dc8b7ffbdf2",
+    "id": "39030eaae28668c36e5c",
     "country": "AR",
     "bucket": "🇦🇷 Argentina",
     "source": "Ámbito Negocios",
-    "title": "De cuánto es la fortuna de Lauren Sánchez, la nueva esposa de Jeff Bezos",
-    "url": "https://www.ambito.com/negocios/de-cuanto-es-la-fortuna-lauren-sanchez-la-nueva-esposa-jeff-bezos-n6248850",
-    "published_at": "2026-02-24T21:30:00+00:00",
-    "summary": "Si bien gozaba de independencia financiera, esta unión la posicionó entre las celebridades más millonarias del mundo.",
+    "title": "Más de 16 millones de dólares por una carta de Pokemon: qué es el Pikachu Illustrator",
+    "url": "https://www.ambito.com/negocios/mas-16-millones-dolares-una-carta-pokemon-que-es-el-pikachu-illustrator-n6248992",
+    "published_at": "2026-02-25T00:30:00+00:00",
+    "summary": "El reconocido youtuber consiguió una importante suma de dinero, ya que vendió uno de los artículos más difíciles de conseguir por los coleccionistas.",
     "categories": [
       "Negocios"
     ],
     "detected": []
   },
   {
-    "id": "9fd8bb67f17fd3983d91",
+    "id": "bd073657c17a70b49f91",
+    "country": "PE",
+    "bucket": "🇵🇪 Peru",
+    "source": "Gestión Tecnología",
+    "title": "Inicia histórico juicio contra Meta y YouTube por adicción a redes sociales: ¿y TikTok?",
+    "url": "https://gestion.pe/tecnologia/adiccion-a-redes-sociales-inician-argumentos-en-historico-juicio-contra-meta-y-youtube-que-paso-con-tiktok-noticia/",
+    "published_at": "2026-02-25T00:02:00+00:00",
+    "summary": "Las mayores empresas de redes sociales del mundo enfrentan este año varios juicios históricos que buscan responsabilizarlas por los daños que sufren los niños al usar sus plataformas. Esta semana ocurrirán los argumentos iniciales para el primero, en el tribunal del Condado de Los Ángeles.",
+    "categories": [],
+    "detected": []
+  },
+  {
+    "id": "33f66fb855ca9075e34f",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Negocios",
+    "title": "Mercado Libre no cumplió con las expectativas de Wall Street y sus acciones se hunden casi 6%",
+    "url": "https://www.ambito.com/negocios/mercado-libre-no-cumplio-las-expectativas-wall-street-y-sus-acciones-se-hunden-casi-6-n6249119",
+    "published_at": "2026-02-24T23:44:00+00:00",
+    "summary": "Aunque mostró un fuerte crecimiento en ingresos y consolidó su liderazgo en e-commerce y fintech, la empresa fundada por Marcos Galperín no alcanzó las expectativas de ganancias del mercado y su acción cae fuerte en las operaciones posteriores al cierre.",
+    "categories": [
+      "Negocios"
+    ],
+    "detected": []
+  },
+  {
+    "id": "3e784f5fc8c98c26377d",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "WIRED en Español (top)",
+    "title": "Sheinbaum analiza acciones legales contra Elon Musk tras señalamientos de vínculos con el narco",
+    "url": "https://es.wired.com/articulos/sheinbaum-analiza-acciones-legales-contra-elon-musk-tras-senalamientos-de-vinculos-con-el-narco",
+    "published_at": "2026-02-24T23:36:53+00:00",
+    "summary": "“Ella solo dice lo que le indican sus jefes del cártel\", fueron las palabras de Elon Musk contra la presidenta de México, Claudia Sheinbaum, quien considera emprender acciones legales por difamación.",
+    "categories": [
+      "México",
+      "Elon Musk",
+      "Claudia Sheinbaum"
+    ],
+    "detected": []
+  },
+  {
+    "id": "3718b15fe8392deeac8e",
     "country": "MX",
     "bucket": "🇲🇽 Mexico",
     "source": "Mexico News Daily",
-    "title": "Analysis: Mexico may pay a steep price for the killing of Jalisco cartel leader El Mencho",
-    "url": "https://mexiconewsdaily.com/politics/analysis-mexico-may-pay-a-steep-price-for-the-killing-of-jalisco-cartel-leader-el-mencho/",
-    "published_at": "2026-02-24T21:09:10+00:00",
-    "summary": "<p>El Mencho's killing may have enabled Mexico’s authorities to secure a political win with Washington. But the operation should not be seen as a victory, writes Mexican sociologist Raúl Zepeda Gil.</p> <p>The post <a href=\"https://mexiconewsdaily.com/politics/analysis-mexico-may-pay-a-steep-price-for-the-killing-of-jalisco-cartel-leader-el-mencho/\">Analysis: Mexico may pay a steep price for the killing of Jalisco cartel leader El Mencho</a> appeared first on <a href=\"https://mexiconewsdaily.com",
+    "title": "‘No risk’ to World Cup visitors, says Sheinbaum: Tuesday’s mañanera recapped",
+    "url": "https://mexiconewsdaily.com/politics/risk-world-cup-sheinbaum-tuesdays-mananera-recapped/",
+    "published_at": "2026-02-24T23:35:28+00:00",
+    "summary": "<p>President Claudia Sheinbaum responded to questions about the upcoming FIFA World Cup and the dissemination on Sunday of videos and images created with artificial intelligence that purported to depict scenes of violence that didn't actually exist.</p> <p>The post <a href=\"https://mexiconewsdaily.com/politics/risk-world-cup-sheinbaum-tuesdays-mananera-recapped/\">‘No risk’ to World Cup visitors, says Sheinbaum: Tuesday&#8217;s mañanera recapped</a> appeared first on <a href=\"https://mexiconewsda",
     "categories": [
-      "Politics"
+      "Politics",
+      "Claudia Sheinbaum mañanera",
+      "mañaneras recapped",
+      "risk world cup mexico",
+      "risk world cup sheinbaum"
     ],
     "detected": []
+  },
+  {
+    "id": "474cca779f945c9ec683",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Negocios",
+    "title": "Mendoza busca capitalizar el nuevo ciclo económico con el Foro de Inversiones & Negocios 2026",
+    "url": "https://www.ambito.com/negocios/mendoza-busca-capitalizar-el-nuevo-ciclo-economico-el-foro-inversiones-2026-n6249116",
+    "published_at": "2026-02-24T23:17:00+00:00",
+    "summary": "La provincia reunirá a funcionarios, empresarios e inversores en el Foro de Inversiones &amp; Negocios 2026, con foco en financiamiento, sectores estratégicos y generación de proyectos concretos.",
+    "categories": [
+      "Negocios"
+    ],
+    "detected": [
+      "funding"
+    ]
+  },
+  {
+    "id": "d305429aa8ef013aa872",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "99Pay raises $135M via FIDC",
+    "url": "https://latamlist.com/99pay-raises-135m-via-fidc/",
+    "published_at": "2026-02-24T23:14:53+00:00",
+    "summary": "<p>99Pay, the financial services arm of Didi-owned mobility app 99 in Brazil, raised $135M through the issuance of&#8230;</p> <p>The post <a href=\"https://latamlist.com/99pay-raises-135m-via-fidc/\">99Pay raises $135M via FIDC</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "99Pay",
+      "Bradesco",
+      "Brazil",
+      "FIDC"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "c12be05f1123c46be2aa",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Comp raises $17.5M Series A round",
+    "url": "https://latamlist.com/comp-raises-17-5m-series-a-round/",
+    "published_at": "2026-02-24T23:06:39+00:00",
+    "summary": "<p>Brazilian HRtech Comp raised a $17.5M Series A round led by Khosla Ventures, marking the firm’s first investment&#8230;</p> <p>The post <a href=\"https://latamlist.com/comp-raises-17-5m-series-a-round/\">Comp raises $17.5M Series A round</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Brazil",
+      "Comp",
+      "hr tech",
+      "Khosla Ventures",
+      "Series A"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "2a16ea2c4cc9f44e2eb3",
+    "country": "MX",
+    "bucket": "🇲🇽 Mexico",
+    "source": "Mexico News Daily",
+    "title": "For ‘therians’ in Mexico, acting like animals is the point",
+    "url": "https://mexiconewsdaily.com/culture/therians-in-mexico/",
+    "published_at": "2026-02-24T23:01:55+00:00",
+    "summary": "<p>Teenagers trotting on all fours and wearing tails have turned “therian” — an online trend in which people identify as animals — into Mexico’s latest flash point, jumping from TikTok feeds into town plazas, campuses and even Congress.</p> <p>The post <a href=\"https://mexiconewsdaily.com/culture/therians-in-mexico/\">For &#8216;therians&#8217; in Mexico, acting like animals is the point</a> appeared first on <a href=\"https://mexiconewsdaily.com\">Mexico News Daily</a></p>",
+    "categories": [
+      "Culture",
+      "The Therian Law",
+      "Therian as online trend",
+      "Therians in Mexico",
+      "Therians in Uruguay and Argentina"
+    ],
+    "detected": []
+  },
+  {
+    "id": "fdef888aaafb118e4587",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Negocios",
+    "title": "El ejército de hackers que robó más de 3 mil millones en criptomonedas para un oscuro plan",
+    "url": "https://www.ambito.com/negocios/el-ejercito-hackers-que-robo-mas-3-mil-millones-criptomonedas-un-oscuro-plan-n6248860",
+    "published_at": "2026-02-24T23:00:00+00:00",
+    "summary": "Los atacantes se hicieron pasar por reclutadores laborales de Sky Mavis, tomaron cinco validadores que autorizaban transacciones y retiraron más 600 millones de dólares.",
+    "categories": [
+      "Negocios"
+    ],
+    "detected": []
+  },
+  {
+    "id": "e51c698a3705216d9122",
+    "country": "MX",
+    "bucket": "🇲🇽 Mexico",
+    "source": "Mexico News Daily",
+    "title": "Inside El Mencho’s last hideout in Tapalpa, Jalisco",
+    "url": "https://mexiconewsdaily.com/news/el-menchos-last-hideout-tapalpa-jalisco/",
+    "published_at": "2026-02-24T22:55:24+00:00",
+    "summary": "<p>Luxury furniture, neatly folded clothes, plenty of food, an altar — and a handwritten version of Psalm 91. Here's what else reporters found inside the property where the CJNG cartel boss was found.</p> <p>The post <a href=\"https://mexiconewsdaily.com/news/el-menchos-last-hideout-tapalpa-jalisco/\">Inside El Mencho&#8217;s last hideout in Tapalpa, Jalisco</a> appeared first on <a href=\"https://mexiconewsdaily.com\">Mexico News Daily</a></p>",
+    "categories": [
+      "El Bajío",
+      "News",
+      "el mencho home",
+      "el mencho property tapalpa",
+      "Sticky"
+    ],
+    "detected": []
+  },
+  {
+    "id": "6c0b1e122372bfa37f15",
+    "country": "MX",
+    "bucket": "🇲🇽 Mexico",
+    "source": "Mexico News Daily",
+    "title": "President Sheinbaum ponders a lawsuit against Elon Musk",
+    "url": "https://mexiconewsdaily.com/politics/lawsuit-against-elon-musk/",
+    "published_at": "2026-02-24T22:36:38+00:00",
+    "summary": "<p>It is not uncommon for political enemies to hurl baseless accusations of narco-complicity, but this one came from a foreigner and the richest man in the world.</p> <p>The post <a href=\"https://mexiconewsdaily.com/politics/lawsuit-against-elon-musk/\">President Sheinbaum ponders a lawsuit against Elon Musk</a> appeared first on <a href=\"https://mexiconewsdaily.com\">Mexico News Daily</a></p>",
+    "categories": [
+      "Politics",
+      "Mexican President Sheinbaum",
+      "Mexican Senator Alejandro Murat",
+      "Morena party president Luisa Alcalde.",
+      "Musk accusation against Sheinbaum"
+    ],
+    "detected": []
+  },
+  {
+    "id": "f249d9d183ac9027fdeb",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Negocios",
+    "title": "Donald Trump y Javier Milei, tienen un mismo problema: convencer que la economía anda mejor",
+    "url": "https://www.ambito.com/negocios/donald-trump-y-javier-milei-tienen-un-mismo-problema-convencer-que-la-economia-anda-mejor-n6249049",
+    "published_at": "2026-02-24T22:31:00+00:00",
+    "summary": "Los paralelismos entre Donald Trump y Javier Milei, a veces sorprenden. Con menos de una semana de diferencia ambos darán su discurso más importante del año, tratando de reimpulsar la confianza en sus proyectos económicos.",
+    "categories": [
+      "Negocios"
+    ],
+    "detected": []
+  },
+  {
+    "id": "42a8ca3ddbff42560d15",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Negocios",
+    "title": "Por la caída del consumo, denuncian que Quilmes abrió retiros voluntarios y planea recortar 60 empleos",
+    "url": "https://www.ambito.com/negocios/por-la-caida-del-consumo-denuncian-que-quilmes-abrio-retiros-voluntarios-y-planea-recortar-60-empleos-n6249059",
+    "published_at": "2026-02-24T21:48:00+00:00",
+    "summary": "La empresa puso en marcha un plan para achicar un 30% los puestos de trabajo en la fábrica donde se produce la cerveza Corona. El gremio afirma que es por la caída de consumo.",
+    "categories": [
+      "Negocios"
+    ],
+    "detected": []
+  },
+  {
+    "id": "f1822d7aabaa9a1a2b3e",
+    "country": "AR",
+    "bucket": "🇦🇷 Argentina",
+    "source": "Ámbito Negocios",
+    "title": "Alerta en Granja Tres Arroyos: cheques rechazados por más de $10.000 millones sacuden al gigante avícola",
+    "url": "https://www.ambito.com/negocios/alerta-granja-tres-arroyos-cheques-rechazados-mas-10000-millones-sacuden-al-gigante-avicola-n6248457",
+    "published_at": "2026-02-23T16:43:00+00:00",
+    "summary": "El mayor grupo avícola del país sufre en carne propia el cierre del mercado chino, la caída del consumo doméstico y el aluvión de pollo importado de Brasil. En el sector se especula con un fuerte recorte de su estructura.",
+    "categories": [
+      "Negocios"
+    ],
+    "detected": []
+  },
+  {
+    "id": "b93d45559ab59707317d",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Brazil’s Laqus acquires Estar.Finance",
+    "url": "https://latamlist.com/brazils-laqus-acquires-estar-finance/",
+    "published_at": "2026-02-18T22:49:27+00:00",
+    "summary": "<p>Brazilian fintech Laqus acquired Estar.Finance, a trading platform for digital assets. Laqus provides financial market infrastructure and software&#8230;</p> <p>The post <a href=\"https://latamlist.com/brazils-laqus-acquires-estar-finance/\">Brazil’s Laqus acquires Estar.Finance</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "M & A",
+      "Brazil",
+      "Estar.Finance",
+      "Fintech",
+      "Laqus"
+    ],
+    "detected": [
+      "funding"
+    ]
+  },
+  {
+    "id": "b2c4bd968717b8d5c81a",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "The Zero by Fifty accelerator promotes startups that turn ideas into impact",
+    "url": "https://www.contxto.com/en/news/the-zero-by-fifty-accelerator-promotes-startups-that-turn-ideas-into-impact/",
+    "published_at": "2026-02-10T19:13:23+00:00",
+    "summary": "Zero by Fifty positions itself as a key player in the entrepreneurial ecosystem by closing a historic gap between innovative ideas and their business execution. The firm works with startups seeking real impact and sustainable growth, especially in regions where talent abounds but access to opportunities remains limited. The project was born from the direct [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "3f8dcc2e2ed782430691",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Salvadoran startup Jobbi leverages AI to scale global hiring processes",
+    "url": "https://www.contxto.com/en/news/salvadoran-startup-jobbi-leverages-ai-to-scale-global-hiring-processes/",
+    "published_at": "2026-02-09T19:59:28+00:00",
+    "summary": "For years, the Central American entrepreneurial ecosystem has been concentrated mainly in Mexico. But that narrative is beginning to shift as new places appear on the map of technological innovation. One of them is El Salvador, where a local startup is designing the future of work. Jobbi, a talent platform created in the country, recently [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "0082b8e20b9936ba9410",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Ecuadorian fintech Jelou raises $10 million in Series A funding to scale its WhatsApp payment platform",
+    "url": "https://www.contxto.com/en/fintech/ecuadorian-fintech-jelou-raises-10-million-in-series-a-funding-to-scale-its-whatsapp-payment-platform/",
+    "published_at": "2026-02-05T22:07:16+00:00",
+    "summary": "In a recent Series A fundraising round led by Wellington Access Ventures, Krealo, and Collide Capital, Ecuadorian company Jelou raised US$10 million that will be used to further strengthen its business model. The startup will use the capital raised to expand Brain OS, its technology platform that allows companies to create and manage Artificial Intelligence [&#8230;]",
+    "categories": [
+      "Fintech"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "8cc874f6483904de2d40",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Kaszek leads $27 million Series B round to strengthen its payment infrastructure",
+    "url": "https://www.contxto.com/en/funding/kaszek-leads-27-million-series-b-round-to-strengthen-its-payment-infrastructure/",
+    "published_at": "2026-02-04T21:43:18+00:00",
+    "summary": "Tapi, a startup offering payment infrastructure, closed a Series B round for US$27 million, led by Latin American fund Kaszek. Endeavor Catalyst and Latitud also participated in the round. With this investment, the Argentine startup has raised US$60 million since its founding in 2022, a year of boom for the Latin American entrepreneurial ecosystem. Its [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
   }
 ]

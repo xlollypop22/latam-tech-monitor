@@ -1,1 +1,111 @@
-[]
+[
+  {
+    "id": "d305429aa8ef013aa872",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "99Pay raises $135M via FIDC",
+    "url": "https://latamlist.com/99pay-raises-135m-via-fidc/",
+    "published_at": "2026-02-24T23:14:53+00:00",
+    "summary": "<p>99Pay, the financial services arm of Didi-owned mobility app 99 in Brazil, raised $135M through the issuance of&#8230;</p> <p>The post <a href=\"https://latamlist.com/99pay-raises-135m-via-fidc/\">99Pay raises $135M via FIDC</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "99Pay",
+      "Bradesco",
+      "Brazil",
+      "FIDC"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "c12be05f1123c46be2aa",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "LatamList",
+    "title": "Comp raises $17.5M Series A round",
+    "url": "https://latamlist.com/comp-raises-17-5m-series-a-round/",
+    "published_at": "2026-02-24T23:06:39+00:00",
+    "summary": "<p>Brazilian HRtech Comp raised a $17.5M Series A round led by Khosla Ventures, marking the firm’s first investment&#8230;</p> <p>The post <a href=\"https://latamlist.com/comp-raises-17-5m-series-a-round/\">Comp raises $17.5M Series A round</a> appeared first on <a href=\"https://latamlist.com\">LatamList</a>.</p>",
+    "categories": [
+      "Startup Funding",
+      "Brazil",
+      "Comp",
+      "hr tech",
+      "Khosla Ventures",
+      "Series A"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "b2c4bd968717b8d5c81a",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "The Zero by Fifty accelerator promotes startups that turn ideas into impact",
+    "url": "https://www.contxto.com/en/news/the-zero-by-fifty-accelerator-promotes-startups-that-turn-ideas-into-impact/",
+    "published_at": "2026-02-10T19:13:23+00:00",
+    "summary": "Zero by Fifty positions itself as a key player in the entrepreneurial ecosystem by closing a historic gap between innovative ideas and their business execution. The firm works with startups seeking real impact and sustainable growth, especially in regions where talent abounds but access to opportunities remains limited. The project was born from the direct [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "3f8dcc2e2ed782430691",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Salvadoran startup Jobbi leverages AI to scale global hiring processes",
+    "url": "https://www.contxto.com/en/news/salvadoran-startup-jobbi-leverages-ai-to-scale-global-hiring-processes/",
+    "published_at": "2026-02-09T19:59:28+00:00",
+    "summary": "For years, the Central American entrepreneurial ecosystem has been concentrated mainly in Mexico. But that narrative is beginning to shift as new places appear on the map of technological innovation. One of them is El Salvador, where a local startup is designing the future of work. Jobbi, a talent platform created in the country, recently [&#8230;]",
+    "categories": [
+      "News"
+    ],
+    "detected": [
+      "startup_news"
+    ]
+  },
+  {
+    "id": "0082b8e20b9936ba9410",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Ecuadorian fintech Jelou raises $10 million in Series A funding to scale its WhatsApp payment platform",
+    "url": "https://www.contxto.com/en/fintech/ecuadorian-fintech-jelou-raises-10-million-in-series-a-funding-to-scale-its-whatsapp-payment-platform/",
+    "published_at": "2026-02-05T22:07:16+00:00",
+    "summary": "In a recent Series A fundraising round led by Wellington Access Ventures, Krealo, and Collide Capital, Ecuadorian company Jelou raised US$10 million that will be used to further strengthen its business model. The startup will use the capital raised to expand Brain OS, its technology platform that allows companies to create and manage Artificial Intelligence [&#8230;]",
+    "categories": [
+      "Fintech"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  },
+  {
+    "id": "8cc874f6483904de2d40",
+    "country": "LATAM",
+    "bucket": "LATAM (regional)",
+    "source": "Contxto EN",
+    "title": "Kaszek leads $27 million Series B round to strengthen its payment infrastructure",
+    "url": "https://www.contxto.com/en/funding/kaszek-leads-27-million-series-b-round-to-strengthen-its-payment-infrastructure/",
+    "published_at": "2026-02-04T21:43:18+00:00",
+    "summary": "Tapi, a startup offering payment infrastructure, closed a Series B round for US$27 million, led by Latin American fund Kaszek. Endeavor Catalyst and Latitud also participated in the round. With this investment, the Argentine startup has raised US$60 million since its founding in 2022, a year of boom for the Latin American entrepreneurial ecosystem. Its [&#8230;]",
+    "categories": [
+      "Funding"
+    ],
+    "detected": [
+      "funding",
+      "startup_news"
+    ]
+  }
+]
