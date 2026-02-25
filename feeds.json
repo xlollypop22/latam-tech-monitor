@@ -1,0 +1,72 @@
+{
+  "sources": [
+    {
+      "name": "LatamList",
+      "url": "https://latamlist.com/feed/"
+    },
+    {
+      "name": "Contxto EN",
+      "url": "https://www.contxto.com/en/feed/"
+    },
+    {
+      "name": "Contxto ES",
+      "url": "https://www.contxto.com/es/feed/"
+    },
+    {
+      "name": "BNamericas",
+      "url": "https://www.bnamericas.com/en/rss"
+    },
+    {
+      "name": "Startupeable",
+      "url": "https://www.startupeable.com/feed/"
+    },
+    {
+      "name": "PulsoSocial",
+      "url": "https://www.pulso.social/feed/"
+    },
+    {
+      "name": "Entrepreneur LATAM",
+      "url": "https://www.entrepreneur.com/es/feed"
+    },
+    {
+      "name": "e27 Latin America",
+      "url": "https://e27.co/feed"
+    },
+    {
+      "name": "TechCrunch Latin America",
+      "url": "https://techcrunch.com/tag/latin-america/feed/"
+    },
+    {
+      "name": "Forbes LATAM",
+      "url": "https://www.forbes.com/lists/latin-american-startups/rss/"
+    },
+    {
+      "name": "El Economista (México)",
+      "url": "https://www.eleconomista.com.mx/rss.xml"
+    },
+    {
+      "name": "El Financiero (México)",
+      "url": "https://www.elfinanciero.com.mx/feed/"
+    },
+    {
+      "name": "La Tercera (Chile)",
+      "url": "https://www.latercera.com/rss/"
+    },
+    {
+      "name": "Infobae Tecnología (AR)",
+      "url": "https://www.infobae.com/tecno/feed/"
+    },
+    {
+      "name": "iProUP Noticias (AR)",
+      "url": "https://www.iproup.com/rss"
+    },
+    {
+      "name": "América Economía",
+      "url": "https://www.americaeconomia.com/rss.xml"
+    },
+    {
+      "name": "MercoPress Tech",
+      "url": "https://en.mercopress.com/section/technology.rss"
+    }
+  ]
+}
